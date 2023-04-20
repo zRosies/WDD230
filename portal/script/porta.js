@@ -4,6 +4,6 @@ const options = {day: 'numeric', month:'numeric', year:'numeric', hour:'numeric'
 const modi = document.lastModified;
 const timezone= 'UTC -7';
 const lastupdate = new Date(modi);
-const formtdate = lastupdate.toLocaleString('en-Us', {timezone});
+const formtdate = lastupdate.toLocaleString('en-Us');
 
 document.getElementById('date').textContent =  formtdate;
