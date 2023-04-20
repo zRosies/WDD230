@@ -13,7 +13,7 @@ body{
     padding: 0;
 }
 nav{
-    background-color:#0077B6;
+    background-color:#023047;
     display: flex;
     padding: 20px;
     box-shadow:  0px 0px 10px;
@@ -24,9 +24,47 @@ nav h2{
     justify-self: center;
     color: white;
     margin-left: 100px;
-    font-size: 2em;
+    font-size: 4em;
     font-weight: 900;
     text-shadow: 0px 0px 10px rgba(0,0,0);
 
+
 }
 
+main h2{
+    font-size: 3em;
+    text-shadow: 0px 10px 20px #023047;
+    margin-left: 20px;
+
+}
+
+
+.container{
+    padding-top: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    align-content: center;
+    justify-items: center;
+    padding-bottom: 30px;
+}
+
+ul{
+    /* display: inline-block; */
+    margin-left: 20px;
+}
+
+.container li, .container{
+    font-size: 1.3em;
+
+}
+
+footer{
+    padding: 10px;
+    background: #023047;
+    margin: 0;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    box-shadow: 20px 0px 20px;
+}
