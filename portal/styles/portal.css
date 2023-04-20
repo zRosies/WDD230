@@ -70,7 +70,6 @@ span{
     align-content: center;
     justify-items: center;
     padding-bottom: 30px;   
-    backdrop-filter: blur(200);
     box-shadow: 2px 2px 20px rgba(0,0,0);
 }
 
