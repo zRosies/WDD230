@@ -1,14 +1,9 @@
 /* colors: # 03045E 
-0077B6
-CAF0F8*/
-
-
-*{  
-}
-
+#0077B6
+#CAF0F8*/
 
 header {
-    width: 90%;
+    width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,15 +27,24 @@ body{
     margin: 0;
     padding: 0;
 }
+
+main{
+
+width: 1200px;
+justify-content: center;
+align-items: center;
+         
+}
 nav{
-    margin-top: 50px;
+    margin-top: 20px;
     position: relative;
     background-color:#023047;
     display: flex;
     padding: 10px;
     box-shadow:  0px 0px 10px;
     width: 100%;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
     padding-left: 80px;
     
 }
@@ -70,7 +74,6 @@ nav h1{
 
 main h2{
     font-size: 3em;
-    /* text-shadow: 0px 10px 20px black; */
     box-shadow: 2px 2px 10px;
     margin-left: 20px;
     background: #CAF0F8;
@@ -104,7 +107,7 @@ ul{
 }
 
 footer{
-    padding: 20px;
+    padding: 10px;
     background: #023047;
     margin: 0;
     margin-top: 100px;
@@ -113,8 +116,8 @@ footer{
     font-size: 1.3em;
     box-shadow: 20px 0px 20px;
     font-size: 1.5em;
-    width: 90%;
-    margin-left: 30px;
+    width:1200px;
+
     border-top-right-radius: 20px;
     border-top-left-radius:20px ;
     box-shadow: 0px 0px 10px rgba(0,0,0);
