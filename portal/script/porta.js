@@ -1,6 +1,6 @@
-// const new_year = new Date();
-// const options = {year:'long'}
-// const year = new_year.toLocaleString('en-Us', options);
+const new_year = new Date();
+const year = new_year.getFullYear();
+document.querySelector('#year').textContent = year
 
 
 const modi = document.lastModified;

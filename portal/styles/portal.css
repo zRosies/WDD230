@@ -2,6 +2,20 @@
 0077B6
 CAF0F8*/
 
+
+*{  
+}
+
+
+header {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+
 img{
     width: 180px;
     box-shadow: 0px 0px 10px;
@@ -11,12 +25,24 @@ img{
 body{
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 nav{
+    margin-top: 50px;
+    position: relative;
     background-color:#023047;
     display: flex;
-    padding: 20px;
+    padding: 10px;
     box-shadow:  0px 0px 10px;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 80px;
+    
 }
 
 nav h1{
@@ -27,24 +53,18 @@ nav h1{
     font-size: 4em;
     font-weight: 900;
     text-shadow: 0px 0px 10px rgba(0,0,0);
+    width: 100%;
 
 
 }
 
 .container a{
     text-decoration: none;
-    transition: .5s ease-in-out;
    
 }
 
-
-
-
 .container a:hover{
-
     text-decoration: underline;
-    color: #023047;
-    transition: 2s ease-in-out;     
 
 }
 
@@ -74,7 +94,7 @@ span{
 }
 
 ul{
-    /* display: inline-block; */
+    display: inline-block;
     margin-left: 20px;
 }
 
@@ -84,7 +104,7 @@ ul{
 }
 
 footer{
-    padding: 10px;
+    padding: 20px;
     background: #023047;
     margin: 0;
     margin-top: 100px;
@@ -93,5 +113,9 @@ footer{
     font-size: 1.3em;
     box-shadow: 20px 0px 20px;
     font-size: 1.5em;
-    
+    width: 90%;
+    margin-left: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
+    box-shadow: 0px 0px 10px rgba(0,0,0);
 }
