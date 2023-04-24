@@ -6,5 +6,7 @@ const modi = document.lastModified;
 const lastupdate = new Date(modi);  
 const formtdate = lastupdate.toLocaleString('en-Us');
 
+
+
 document.getElementById('date').textContent =  formtdate;
 

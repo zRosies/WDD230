@@ -3,16 +3,20 @@ let shipAmmo = 3;
 let targetHealth = 3;
 //Main()
 function encounter() {
-    console.log("You see a target");
+    let ma= '';
     if (!isDestroyed(targetHealth) && !isDestroyed(shipHealth)) {
       fireShip();
       if (isDestroyed(targetHealth)) {
-        console.log("Target eliminated");
+       ma= "\nTarget eliminated";
       }
       if (isDestroyed(shipHealth)) {
-        console.log("ship destroyed");
+        ma="\nship destroyed";
       }
     }
+    else{
+
+    }
+    return ma
   }
 
 
@@ -23,14 +27,16 @@ function fireShip() {
     shipAmmo--;
     if (isHit()) {
       targetHealth--;
-      console.log("hit - targetHealth:", targetHealth);
+
+      message = `Target hit - Target Health: ${targetHealth}`;
     } else {
-      console.log("miss");
+      message= "You Missed!!";
     }
   } else {
     reloadShip();
-    console.log("reloading, shipHealth:", shipHealth);
+    message=`You can't shoot! Reloading, shipHealth: ${shipHealth}`;
   }
+  return message
 }
 
 //2
@@ -47,10 +53,10 @@ function shipCanFire() {
 
 //3
 function isHit() {
-    let result= false;
+   let result= false;
     // should return true if a randomly generated number is greater than .5, false if it is less than .5
    let fireornot = Math.random();
-   if (fireornot >= 0.5){
+   if (fireornot >= 0.1){
    result = true;}
    
    return result
@@ -65,7 +71,7 @@ function reloadShip() {
 
 function isDestroyed(health) {
     // return true if health is zero or less
-let result= false;
+  let result= false;
   if(health <= 0){
    result= true;		
   }
@@ -74,7 +80,27 @@ let result= false;
   
 }
 
+const click = document.querySelector('#click');
+let msg1 = document.querySelector('#msg1');
+let msg2 = document.querySelector('#msg2');
+let fin = document.querySelector('#fin');
+if(!isDestroyed()){
+    
+    click.addEventListener('click',()=>{
+        msg1.textContent="\nYou see a target and shoot";
+        // if (!isDestroyed(targetHealth) && !isDestroyed(shipHealth)){
+        fin.textContent=encounter();
+                
+            
 
-encounter();
-  
+        // }
+        
+        
+    })
+}
+
+
+
+
+
 

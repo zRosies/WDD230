@@ -36,7 +36,10 @@ nav a::after{
     
     
 }
-
+span{
+    font-size: 2em;
+    color: green;
+}
 nav a:hover::after{
     transform: scale(1);
    
@@ -58,4 +61,8 @@ body{
 .aa{
     color: blue;
     font-size: 5em;
+}
+
+#sec{
+    display: block;
 }
