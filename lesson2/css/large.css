@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poppins&family=Vina+Sans&display=swap');
+
+/* *{
+    border: .5px solid blue;
+} */
+body{
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    max-width: 1920px;
+
+
+    
+
+}
+
+header{
+    position: relative;
+    background: black;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    width: 100%;
+
+}
+main{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    width: 95%;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    margin-left: 65px;
+
+}
+
+
+div h3{
+    background: black;
+    color: rgb(0,255,255);
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    font-family: "Bruno Ace SC",sans-serif,serif;
+    text-shadow: 2px 2px 10px rgb(0,255,255);
+}
+div img{
+    margin-top: 10px;
+}
+
+div{
+    width: 473px;
+    overflow: hidden;
+    border-radius: 35px;
+    background: white;
+    margin-right: 30px;
+    box-shadow: 2px 2px 10px black;
+    
+}
+
+div p, div a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin-left: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    
+}
+
+div a:hover{
+    position: relative;
+    text-decoration: underline;
+    background: rgb(0,255,255);
+    
+}
+h1{
+    color: white;
+    font-family: "Bruno Ace SC", "sans-serif", serif;
+
+}
+h2{
+    font-family: "Bruno Ace SC", "sans-serif", serif;
+    color: rgb(0,255,255);
+    text-shadow: 2px 2px 10px rgb(0,255,255);
+    padding-bottom: 20px;
+}
+a{
+    margin-bottom: 20px;
+}
+
+footer{
+    
+    padding: 10px;
+    /* background: #023047; */
+    background: black;
+    margin: 0;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    box-shadow: 20px 0px 20px;
+    font-size: 1.5em;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
+    box-shadow: 0px 0px 10px rgba(0,0,0);
+}
+
+span{
+    color: yellow;
+}
+
+
