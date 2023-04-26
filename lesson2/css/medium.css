@@ -1,16 +1,13 @@
-/* @media screen and (min-width: 600px) and (max-width: 1080 ){
+@media screen and (min-width: 668px) and (max-width: 1440px ){
     section{
         display: grid;
-        grid-template-columns: repeat(2,500px);
+        grid-template-columns: repeat(2,2fr);
         margin-left: 65px;
     
-    }
-    img{
-        max-width: 500px;
     }
     div{
         margin-top: 20px;
         width: 467px;
     }
 
-}   */
+}  
