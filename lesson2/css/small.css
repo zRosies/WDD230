@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     *{
         transition: .5s ease-in-out;
     }
@@ -30,7 +30,7 @@
 
     }
     img{
-        width: 330px;
+        width: 335px;
     }
 
     
