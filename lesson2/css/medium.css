@@ -1,4 +1,7 @@
 @media screen and (min-width: 668px) and (max-width: 1440px ){
+    *{
+        transition: .5s ease-in-out;
+    }   
     section{
         display: grid;
         grid-template-columns: repeat(2,2fr);
