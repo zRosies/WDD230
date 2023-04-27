@@ -18,8 +18,18 @@
         position: relative;
         left: 5%;
         margin-top: 20px;
-        width: 250px;
+        width: 280px;
         margin: 0;
+        transition: .5s ease-in-out;
+    }
+    .net img{
+        position: relative;
+        left: -13%;
+    }
+    .google img{
+        position: relative;
+        left: -40%;
+
     }
 
     
