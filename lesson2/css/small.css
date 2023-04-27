@@ -15,20 +15,20 @@
     }
 
     div{
-        position: relative;
-        left: 3%;
-        margin-top: 30px;
         width: 330px;
         margin: 0;
         transition: .5s ease-in-out;
+        margin-top: 30px;
+        margin-left: 20px;
     }
     .net img{
         position: relative;
-        left: -13%;
+        left: -0%;
+
     }
     .google img{
         position: relative;
-        left: -40%;
+        left: -20%;
 
     }
 
