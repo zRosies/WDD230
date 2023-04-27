@@ -22,14 +22,15 @@
         margin-left: 20px;
     }
     .net img{
-        position: relative;
-        left: -0%;
+
 
     }
     .google img{
-        position: relative;
-        left: -20%;
+    
 
+    }
+    img{
+        width: 330px;
     }
 
     
