@@ -1,0 +1,36 @@
+@media screen and (max-width: 727px){
+
+    body{
+        margin: 0;
+        width: 360px;
+        margin: 0;
+    }
+    nav{
+        display: inline-block;
+        width: 310px;
+        margin: 0;
+        position: static;
+        
+    }
+    nav a{
+        position: static;
+        width: 100%;
+        box-shadow: 1px 1px 5px white;
+        display: block;
+        padding: 20px;
+        flex-direction: row;
+        font-size: 1em;
+        margin: 0;
+        margin-left: -21px;
+        margin-bottom: -6px;
+    }
+
+
+    footer{
+        margin: 0;
+    }
+    table tr{
+        
+        padding: -400px;
+    }
+}
