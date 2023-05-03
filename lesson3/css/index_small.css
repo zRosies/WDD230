@@ -7,8 +7,7 @@
     nav{
         display: inline-block;
         width: 310px;
-        margin: 0;
-        
+        margin: 0;        
     }
     nav a{
         width: 100%;
@@ -44,9 +43,6 @@
     footer{
         margin: 0;
     }
-    
-
-
 
 
 }
