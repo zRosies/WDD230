@@ -1,0 +1,24 @@
+@media screen and (min-width:668px) and (max-width:840px){
+    body{
+        margin: 0 auto;
+        width: auto;
+        margin: 0;
+       
+    }
+    nav{
+        display: block;
+        margin: 0;   
+        width: auto;
+        transition: .5 ease-in-out;     
+    }
+    nav a{
+        width: 100%;
+        box-shadow: 1px 1px 5px white;
+        padding: 20px;
+        font-size: 1em;
+        margin: 50px;
+        justify-content: space-around;
+        transition: .5 ease-in-out;
+    }
+
+}
