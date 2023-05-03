@@ -2,7 +2,7 @@
     body{
         margin: 0;
         width: 360px;
-        margin: 0 auto;
+        margin: 0;
     }
     nav{
         display: inline-block;
@@ -11,9 +11,13 @@
         
     }
     nav a{
-        margin: 14px;
+        width: 100%;
+        box-shadow: 1px 1px 5px white;
+        display: block;
+        padding: 20px;
         flex-direction: row;
-        font-size: 1em
+        font-size: 1em;
+        margin: 0;
     }
     img{
         width: 150px;
