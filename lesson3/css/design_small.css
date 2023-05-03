@@ -29,8 +29,8 @@
     footer{
         margin: 0;
     }
-    table tr{
-        
-        padding: -400px;
+    table {
+    
+        font-size: .7em;
     }
 }
