@@ -1,41 +1,57 @@
-@media screen and (max-width: 727px){
-
+@media screen and (max-width: 667px){
     body{
-        margin: 0;
-        width: 360px;
+        margin: 0 auto;
+        width: auto;
         margin: 0;
     }
     nav{
-        display: inline-block;
-        width: 310px;
-        margin: 0;
-        position: static;
-        
+        display: block;
+        margin: 0;   
+        width: auto;     
     }
     nav a{
-        position: static;
         width: 100%;
         box-shadow: 1px 1px 5px white;
         display: block;
         padding: 20px;
         flex-direction: row;
         font-size: 1em;
-        margin: 12px;
+        margin: 0;
         margin-left: -21px;
         margin-bottom: -6px;
     }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    .logo h1{
+        font-size: 1em;
+        margin-left: 10px;
+        display: flex;
+    }
 
-
+    p{  
+        margin: 15px;
+        margin-left: 30px;
+        text-align: center;
+        display: block;
+        font-size: 1.1em;
+        padding: 5px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .purpose{
+       margin-left: -10px;
+    }    
     footer{
         margin: 0;
+        width: auto;
     }
-    table {
-    
-        font-size: .6em;
-    }
-    .view{
-        font-size: 1em;
+
+    footer p{
         text-align: center;
-        margin-left: 5px;
     }
+
+
 }

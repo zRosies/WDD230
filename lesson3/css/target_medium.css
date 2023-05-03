@@ -1,4 +1,5 @@
-@media screen and (max-width: 667px){
+@media screen and (min-width:668px) and (max-width:840px){
+
     body{
         margin: 0 auto;
         width: auto;
@@ -12,42 +13,10 @@
     nav a{
         width: 100%;
         box-shadow: 1px 1px 5px white;
-        display: block;
         padding: 20px;
-        flex-direction: row;
         font-size: 1em;
-        margin: 0;
-        margin-left: -21px;
-        margin-bottom: -6px;
-    }
-
-    .logo h1{
-        font-size: 1em;
-        margin-left: 10px;
-        display: flex;
-    }
-
-    p{  
-        margin: 15px;
-        margin-left: 30px;
-        text-align: center;
-        display: block;
-        font-size: .5em;
-        padding: 5px;
-    }
-    .logo{
-        width: 100%;
-    }
-    .purpose{
-       margin-left: -10px;
-    }    
-    footer{
-        margin: 0;
-        width: auto;
-    }
-
-    footer p{
-        text-align: center;
+        margin: 55px;
+        justify-content: space-around
     }
 
 
