@@ -33,4 +33,9 @@
     
         font-size: .6em;
     }
+    .view{
+        font-size: 1em;
+        text-align: center;
+        margin-left: 5px;
+    }
 }
