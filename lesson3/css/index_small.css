@@ -1,12 +1,12 @@
-@media screen and (max-width: 727px){
+@media screen and (max-width: 559px){
     body{
-        margin: 0;
-        width: 360px;
+        margin: 0 auto;
+        width: 96%;
         margin: 0;
     }
     nav{
         display: inline-block;
-        width: 310px;
+        width: 96%;
         margin: 0;        
     }
     nav a{
@@ -31,17 +31,22 @@
     }
 
     p{
+        margin-left: 10px;
         text-align: center;
         display: flex;
         font-size: .5em;
         padding: 5px;
     }
     .logo{
-        
-        padding: -20px;
+        margin-right: -20px;
     }    
     footer{
         margin: 0;
+        width: 100%;
+    }
+
+    footer p{
+        text-align: center;
     }
 
 

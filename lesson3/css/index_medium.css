@@ -1,0 +1,20 @@
+@media screen and (min-width:667px) and (max-width:1024px) {
+    body{
+        width: 100%;
+    }
+    nav{
+        margin-top: -5px;
+        width: 100%;
+        padding: 40px;
+    }
+    .purpose{
+        margin-top: 100px;
+    }
+    footer{
+        width: 100%;
+        padding: 30px;
+    }  
+
+
+
+}
