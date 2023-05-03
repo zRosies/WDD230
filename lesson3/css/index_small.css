@@ -18,6 +18,8 @@
         flex-direction: row;
         font-size: 1em;
         margin: 0;
+        margin-left: -21px;
+        margin-bottom: -6px;
     }
     img{
         width: 150px;
