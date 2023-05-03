@@ -1,22 +1,44 @@
 @media screen and (max-width: 900px){
     body{
+        margin: 0;
+        width: 375px;
         margin: 0 auto;
-        width: 480px;
     }
     nav{
         display: inline-block;
         width: 100%;
-        
+        margin: 0;
         
     }
     nav a{
         margin: 14px;
         flex-direction: row;
-    };
+        font-size: 1em
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    .logo h1{
+        font-size: 1.3em;
+        margin-left: 10px;
+    }
 
     p{
+        text-align: center;
         display: flex;
-        font-size: 1.1em;
+        font-size: .5em;
+    }
+    .purpose p{
+        margin-left: 30px;
+    }
+    .logo{
+        width: 425px;
+    
+    }    
+    footer{
+        width: 385px;
+        margin: 0;
     }
     
 
