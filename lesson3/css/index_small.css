@@ -1,20 +1,24 @@
-@media screen and (min300px)and (max-width: 900px){
+@media screen and (max-width: 900px){
     body{
         margin: 0 auto;
-        width: 500px;
+        width: 480px;
     }
     nav{
-        display: block;
-        justify-content: space-between;
+        display: inline-block;
+        width: 100%;
+        
         
     }
     nav a{
-        margin: 13px
+        margin: 14px;
+        flex-direction: row;
     };
 
     p{
         display: flex;
+        font-size: 1.1em;
     }
+    
 
 
 
