@@ -43,6 +43,9 @@
     .personas p{
         font-size: 1.3em;
         margin-left: -15px;
+    }
+    li{
+        margin-left: -30px;
     }    
     footer{
         margin: 0;
