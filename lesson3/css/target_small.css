@@ -9,9 +9,11 @@
         display: inline-block;
         width: 310px;
         margin: 0;
+        position: static;
         
     }
     nav a{
+        position: static;
         width: 100%;
         box-shadow: 1px 1px 5px white;
         display: block;
@@ -25,6 +27,14 @@
 
     .personas{
         display: block;
+    }
+
+    .personas p{
+        margin-left: -50px;
+
+    }
+    li{
+        margin-left: -56px;
     }
 
 }
