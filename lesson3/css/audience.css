@@ -1,0 +1,64 @@
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    padding: 25px;
+    
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.tar p{
+    font-size: 1.5em;
+    box-shadow: 2px 2px 10px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.personas p{
+    box-shadow: 2px 2px 10px;
+    padding: 20px;
+    
+}
+.persona1, .persona2 {
+    flex-basis: calc(50%);
+    margin-left: 40px;
+  }
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+footer p{
+    font-size: 1.1em;
+}
+
+span{
+    color: #FFC300;
+}
+
+
+footer{
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
