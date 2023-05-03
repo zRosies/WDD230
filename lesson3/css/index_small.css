@@ -1,0 +1,22 @@
+@media screen and (min300px)and (max-width: 900px){
+    body{
+        margin: 0 auto;
+        width: 500px;
+    }
+    nav{
+        display: block;
+        justify-content: space-between;
+        
+    }
+    nav a{
+        margin: 13px
+    };
+
+    p{
+        display: flex;
+    }
+
+
+
+
+}
