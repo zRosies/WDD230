@@ -1,12 +1,12 @@
 @media screen and (max-width: 900px){
     body{
         margin: 0;
-        width: 375px;
+        width: 360px;
         margin: 0 auto;
     }
     nav{
         display: inline-block;
-        width: 100%;
+        width: 310px;
         margin: 0;
         
     }
@@ -20,24 +20,27 @@
         height: 150px;
     }
     .logo h1{
-        font-size: 1.3em;
+        font-size: 1em;
         margin-left: 10px;
+        display: flex;
     }
 
     p{
         text-align: center;
         display: flex;
         font-size: .5em;
+        padding: 5px;
     }
     .purpose p{
-        margin-left: 30px;
+        margin-left: 5px;
+        
     }
     .logo{
-        width: 425px;
-    
+        
+        padding: -20px;
     }    
     footer{
-        width: 385px;
+       
         margin: 0;
     }
     
