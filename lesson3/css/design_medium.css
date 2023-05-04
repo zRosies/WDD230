@@ -9,7 +9,7 @@
         display: block;
         margin: 0;   
         width: auto;
-        transition: .5 ease-in-out;     
+        transition: .5s ease-in-out;     
     }
     nav a{
         width: 100%;
@@ -18,7 +18,7 @@
         font-size: 1em;
         margin: 50px;
         justify-content: space-around;
-        transition: .5 ease-in-out;
+        transition: .5s ease-in-out;
     }
 
 }
