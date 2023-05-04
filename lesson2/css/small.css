@@ -10,6 +10,10 @@
     main{
         margin: 0;
     }
+    header{
+        margin: 0 auto;
+        margin-top: -5px;
+    }
 
     div{
         width: 330px;
