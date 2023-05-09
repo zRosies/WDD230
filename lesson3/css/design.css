@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poppins&family=Raleway:wght@500&family=Vina+Sans&display=swap');
 body{
-    width: 1440px;
+    max-width: 1920px;
+    width: 100%;
+    box-sizing: border-box;
     margin: 0 auto;
+    
 }
-
 nav{
     margin-top: 20px;
     display: flex;

@@ -1,7 +1,11 @@
 body{
-    width: 1440px;
+    max-width: 1920px;
+    width: 100%;
+    box-sizing: border-box;
     margin: 0 auto;
+    
 }
+
 
 nav{
     margin-top: 20px;

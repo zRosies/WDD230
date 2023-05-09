@@ -29,14 +29,17 @@
         margin-left: 10px;
         display: flex;
     }
+   
 
     p{  
         margin: 15px;
         margin-left: 30px;
         text-align: center;
         display: block;
-        font-size: .5em;
         padding: 5px;
+    }
+    .purpose p{
+        font-size: 1em;
     }
     .logo{
         width: 100%;

@@ -1,0 +1,50 @@
+body{
+    
+    width: 1519px;
+    margin: 0 auto;
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    padding: 6px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    justify-self: center;
+    margin-right: 50px;
+    padding: 0;
+    text-align: center;
+    align-self: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    transition: .5s ease-in-out;
+    margin-top: 5px;
+    margin-right: 300px;  
+}
+
+img:hover{
+    box-shadow: 2px 0px 10px #FFC300;
+    transform: scale(1.1);
+
+}
+
+footer{
+    margin-top: 550px;
+    padding: 25px;
+    background: #262525;
+    color: white;
+    text-align: center;
+    
+}
+
+span{
+    color: #FFC300;
+}
