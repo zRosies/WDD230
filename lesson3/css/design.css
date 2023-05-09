@@ -7,7 +7,7 @@ body{
     
 }
 nav{
-    margin-top: o;
+    margin-top: 0;
     display: flex;
     justify-content: space-around;
     background-color:black;
