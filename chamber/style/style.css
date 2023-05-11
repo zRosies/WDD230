@@ -1,14 +1,17 @@
 body{
-    
-    width: 1519px;
+    max-width: 1920px;
+    width: 100%;
     margin: 0 auto;
 }
-
-nav{
-    background: rgba(0, 0, 0, 0.9);
-    display: flex;
-    padding: 6px;
+header{
+    background:  #000000;;
+    padding: 15px;
 }
+nav{
+    display: flex;
+    justify-content: space-between; 
+}
+
 nav a{
     color: white;
     text-decoration: none;
@@ -16,21 +19,33 @@ nav a{
     justify-self: center;
     margin-right: 50px;
     padding: 0;
+    margin: 0;
     text-align: center;
     align-self: center;
 }
-
-img{
+.images{
+    align-self: center;
+}
+.fb, .ins{
+    align-self: center;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 20px;
-    transition: .5s ease-in-out;
-    margin-top: 5px;
-    margin-right: 300px;  
+    cursor: pointer;
 }
 
-img:hover{
+header img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    transition: .5s ease-in-out;
+    margin-top: 5px;
+    margin-right: 200px;  
+    margin-left: 100px;
+}
+
+header img:hover{
     box-shadow: 2px 0px 10px #FFC300;
     transform: scale(1.1);
 
@@ -39,12 +54,65 @@ img:hover{
 footer{
     margin-top: 550px;
     padding: 25px;
-    background: #262525;
+    background:  #000000;
     color: white;
     text-align: center;
     
 }
 
+footer .container{
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .chamber img, footer .chamber a{
+    margin: 0;
+}
+
+.chamber{
+ 
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
 span{
     color: #FFC300;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+}
+
+#datetime{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.4rem;
+    background-color: #262525;
+    box-shadow: 1px 1px 5px #ffffff;
+    padding: 2px;
+}
+
+footer .location a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+footer .chamber div{
+    align-self: center;
+    justify-self: end;
+    margin-left: 20px;
+}
+
+footer .chamber img{
+    width: 100px;
+    height: 100px;
+    
 }

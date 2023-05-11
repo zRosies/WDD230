@@ -18,7 +18,7 @@ const year = new Date();
 
 //Using LocaleDateString
 
-let opn = { weekday:'short', day:'numeric', month:'short', year:'numeric', hour:'numeric',
+let opn = { weekday:'short', day:'numeric', month:"short", year:'numeric', hour:'numeric',
 minute:'numeric',second:'numeric'};
 document.getElementById('time').textContent =  year.toLocaleDateString('en-Us', opn);
 

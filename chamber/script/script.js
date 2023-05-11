@@ -8,3 +8,12 @@ const newdate = new Date();
 const year = newdate.getFullYear();
 
 document.querySelector("#year").textContent=year;
+
+const date = new Date();
+
+let opn = { weekday:"long", day:"numeric", month:"long", year:"numeric"};
+
+const formdate= new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	date
+);
+document.querySelector("#datetime").textContent=formdate;
