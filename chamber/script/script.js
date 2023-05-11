@@ -17,3 +17,10 @@ const formdate= new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	date
 );
 document.querySelector("#datetime").textContent=formdate;
+
+const hamButton = document.querySelector('#ham');
+const navigation = document.querySelector('.navigation2');
+
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('responsive');
+});
