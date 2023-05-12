@@ -1,4 +1,7 @@
 
+nav .elements h1, nav .elements p{
+    text-shadow: 2px 2px 10px #FFC300;
+}
 body{
     max-width: 1920px;
     width: 100%;
@@ -59,7 +62,7 @@ nav a::after{
     border-radius: 5px;
     transform-origin: right; 
     transform: scaleX(0);
-    transition: transform .5s;
+    transition: transform .6s;
 }
 nav a:hover::after{
     transform-origin: left;

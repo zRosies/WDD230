@@ -1,34 +1,11 @@
-@media screen and (max-width:667px){
-    /* *{
-        border: .5px solid blue;
-    } */
-    h1{
-        font-size: 1em;
-    }
+@media screen and (min-width: 668px) and (max-width:960px) {
     body{
-       
         margin: 0 auto;
         width: 100%;
     }
     header{
-        box-sizing: border-box;
-        width: 100%;
-    }
-    nav{
-        box-sizing: border-box;
-        /* width: 100%; */
-    }
-    button{
-        color:#000000;
-        display: block;
-    }
-    footer{
         width: 100%;
         box-sizing: border-box;
-        display: block;
-    }
-    nav .navigation2{
-        display: none;
     }
     .navigation{
         display: none;
@@ -36,12 +13,6 @@
 
     .container{
         flex-direction: column;
-    }
-
-  
-    .fb, .ins{
-        width: 25px;
-        height: 25px;
     }
     #ham{
         align-self: center;
@@ -99,11 +70,9 @@
         justify-content: center;
         align-items: center;
     }
-    .chamber{
-        display: block;
-        margin-left: 20%;
-        justify-content: center;
-
+    footer .container{
+        display: flex;
+        flex-direction: row;
     }
-       
+
 }
