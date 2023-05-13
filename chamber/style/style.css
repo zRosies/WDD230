@@ -178,6 +178,8 @@ li{
 #ham{
     align-self: center;
     display: none;
+    transition: .5s ease-in-out;
+    align-content: center;
 }
 
 .navigation2{
