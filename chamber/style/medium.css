@@ -87,13 +87,15 @@
     main .events{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1.5fr 1fr;
+        grid-template-rows: 1.2fr 1fr;
     }
 
     main .events div{
         display: grid;
         padding: 50px;
         margin-bottom: 8px;
+    }
+    .event{
     }
     main .aside{
         display: flex;
