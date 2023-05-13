@@ -76,6 +76,9 @@
         box-shadow: 1px 1px 5px #FFFFFF;
         
     }
+    .navigation2{
+        transition: .5s ease-in-out;
+    }
    
     .navigation2.responsive{
         display: block;
@@ -108,5 +111,46 @@
         justify-content: center;
 
     }
-       
+    .placeholder{
+        display: flex;
+        flex-direction:column ;
+        margin: 0;
+
+    }
+    .hero{
+        
+        padding: 80px;
+        margin: 15px;
+    }
+    .mid{
+        margin:0;
+        order: -1;
+    }
+    .newrelase{
+        padding: 80px;
+        display: none;
+    }
+    .nrsmall{
+        display: block;
+    }
+    .events{
+        display: flex;
+        flex-direction: column;
+    }
+    main .events div{
+        padding: 100px;
+    }
+
+    .events .join{
+        display: none;
+    } 
+    .sp3{
+        display: none;
+    }
+    .sp1{
+        margin-top: 20px;
+    }
+    .sp2{
+        margin-bottom: 20px;
+    }  
 }

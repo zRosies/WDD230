@@ -113,9 +113,74 @@ header img:hover{
     transform: scale(1.1);
 
 }
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.placeholder{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.aside{
+    grid-column: 3/3;
+    grid-row: 1/3;
+    margin: 15px;
+    border: 1px solid #14213D;
+    
+
+}
+.nrsmall{
+    display: none;
+}
+
+main .aside{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main .aside div{
+    padding: 115px;
+    margin-left: 20px;
+    margin-right:20px ;
+    border: 1px solid #14213D;
+}
+
+.mid{
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.hero{
+    padding: 250px;
+    border: 1px solid #14213D;
+    margin: 15px;
+}
+.newrelase{
+    padding: 150px;
+    border: 1px solid #14213D;
+    margin: 15px;
+}
+
+.events{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 15px;
+}
+
+main .events div{
+    border: 1px solid #14213D;
+    padding: 130px;
+    margin-bottom: 8px;
+     
+
+}
+
+
+
 
 footer{
-    margin-top: 550px;
     padding: 25px;
     background:  #000000;
     color: #ffffff;
