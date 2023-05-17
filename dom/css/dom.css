@@ -1,22 +1,8 @@
-* {
-	margin: 0;
-	padding: 0;
+body{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
 }
-
-
-
-h1 {
-	font-size: 1.5rem;
-}
-
-main {
-	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 1rem;
-	background-color: #ddd;
-	display: flex;
-}
-
 input,
 button {
 	padding: 0.5rem;
@@ -50,35 +36,31 @@ li {
 	justify-content: space-between;
 }
 
-@media only screen and (min-width: 32.5em) {
-	h1 {
-		font-size: 2rem;
-	}
 
-	main {
-		width: 320px;
-	}
-}
-
-
-main {
-	box-shadow: 1px 1px 10px; /* Move the margin-top property to the main content */
-    padding-right: 1em;
-}
-
-main div {
+main{
     margin: 0 auto;
-    padding: 4em;
-    background: #60a8e3;
-    text-align: center;
     display: flex;
+
+
+}
+
+main .container{
+    display: flex;
+    padding: 2em;
+    background: #60a8e3;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    border: 0px;
+    border: 20px solid #c4c4c4;
+    box-shadow: 1px 1px 10px;
+    border-radius: 20px;
+    width: 500px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
+
 div h1{
-    text-align: center;
-    
+    font-size: 1.6rem;
     margin-bottom: 20px;
 }
 
@@ -87,6 +69,7 @@ div ul li {
 	list-style: none;
 	margin: 20px;
 	justify-content: space-between;
+    font-weight: 800;
 }
 
 div ul {
@@ -132,6 +115,13 @@ footer {
 span{
     color: yellow;
 }
-/* button{
-    margin: 20px;
-} */
+
+@media only screen and (min-width: 32.5em) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	main {
+		width: 320px;
+	}
+}
