@@ -25,6 +25,8 @@ function RenderChapter(){
    
     list.appendChild(li)
     li.appendChild(del)
+    input.value ='';
+    
 
     del.addEventListener('click', function() {
         li.remove();
