@@ -153,20 +153,69 @@
         display: flex;
         flex-direction: column;
     }
-    main .events div{
+    main .weather{
         padding: 100px;
     }
 
     .events .join{
         display: none;
     } 
-    .sp3{
+    main .aside .sp3{
         display: none;
+        padding: 0;
     }
     .sp1{
         margin-top: 20px;
     }
     .sp2{
         margin-bottom: 20px;
-    }  
+    }
+    main .aside .sp1{
+        position: relative;
+        padding:0;
+        margin: 0;
+        overflow: hidden;
+        background: #FFC300;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 12em;
+    }
+    main .aside{
+        position: relative;
+        padding: 20px;
+        display: grid;
+        grid-template-rows: 2fr 2fr;
+        grid-template-columns: 1fr;
+        padding: 20px;
+        box-shadow: 1px 1px 5px #000000;
+    }
+    main .nrsmall{
+        padding: 0;
+        
+        margin: 0;
+    }
+    main .nrsmall{
+        margin: 0;
+        margin-top: 10px;
+        /* width: 100%; */
+        background: linear-gradient(to top  , #000000 30% ,#14213D   90%);;
+        
+    }
+    
+    main .nrsmall h1{
+        color: #FFC300;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    main .nrsmall p{
+        color: white;
+    }
+    main .aa button{
+        margin-top: 10px;
+    }
+
+    .placeholder div{
+        box-shadow: 1px 1px 5px #000000;
+    }
 }

@@ -81,15 +81,17 @@ nav a:hover::after{
     align-items: center;
     color: #ffffff;
     font-size: 1.4rem;
-    background: linear-gradient(to  , #000000 30% ,#14213D   90%);
+    background: linear-gradient(to right  , #000000 30% ,#14213D   90%);
     box-shadow: 1px 1px 5px #FFC300;
     padding: 2px;
 }
-.images{
-    display: flex;
 
-    align-self: center;
+#banner{
+    text-align: center;
+    font-size: 1.2em;
+    display: none;
 }
+
 .fb, .ins{
     align-self: center;
     height: 35px;
@@ -98,6 +100,126 @@ nav a:hover::after{
     border-radius: 50%;
     cursor: pointer;
 }
+
+main .hero{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    /* display: flex; */
+    box-shadow: 2px 2px 5px;
+    height: 40rem;
+    /* z-index: -10 !important; */
+
+    overflow: hidden;
+    
+    
+}
+
+.im1{}
+
+.im2{
+    transform: translateX(100%);
+
+}
+
+.im3{
+    transform: translateX(200%);
+    
+
+}
+
+
+
+main .hero img{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+    transition: opacity 1s ease-in-out;
+}
+/* @keyframes funciona{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+} */
+
+
+main .hero button{
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    z-index: 5;
+    left: 40%;
+    padding: 1.5em;
+    background: linear-gradient(to right, #000000 30% ,#14213D   90%);
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: 800;
+    transition: .5s ease-in-out;
+    /* border: 2px solid transparent; */
+}
+
+main .hero button:hover{
+    margin: 0;
+    transform: scale(1.1);
+    background: linear-gradient(to left, #000000 30% ,#14213D   90%);
+    /* box-shadow: 1px 1px 15px #ffffff; */
+    /* border: 2px solid #ffffff; */
+    font-weight: 800;
+    box-shadow: 1px 1px 5px #ffffff;
+    transition: .5s ease-out;
+}
+
+main .hero h1{
+    margin: 0;
+    text-shadow: 1px 1px 3px #000000;
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 2;
+    color: #ffffff;
+    box-shadow: 1px 1px 50px #ffffff;
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    font-size: 1.9em;
+    font-weight: 900;
+    font-family: "Playfair Display SC", sans-serif; ;
+    /* background-color: rgba(0,0,0,0.6);*/
+    
+}
+
+
 
 header img{
     border-radius: 50%;
@@ -117,6 +239,13 @@ header img:hover{
     display: flex;
     justify-content: center;
 }
+
+main .join{
+    margin: 0;
+    overflow: hidden;
+
+}
+
 .placeholder{
     margin: 50px;
     display: grid;
@@ -127,6 +256,7 @@ header img:hover{
     grid-row: 1/3;
     margin: 15px;
     border: 1px solid #14213D;
+  
     
 
 }
@@ -134,33 +264,20 @@ header img:hover{
     display: none;
 }
 
-main .aside{
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-}
-
-main .aside div{
-    padding: 115px;
-    margin-left: 20px;
-    margin-right:20px ;
-    border: 1px solid #14213D;
+.aside{
+    display: grid;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .mid{
     grid-column: 2/3;
     grid-row: 1/3;
 }
-
-.hero{
-    padding: 250px;
-    border: 1px solid #14213D;
-    margin: 15px;
-}
 .newrelase{
     padding: 150px;
     border: 1px solid #14213D;
-    margin: 15px;
+  
 }
 
 .events{
@@ -170,11 +287,15 @@ main .aside div{
 }
 
 main .events div{
-    border: 1px solid #14213D;
-    padding: 130px;
     margin-bottom: 8px;
      
 
+}
+
+main .events .weather{
+    background: #000000;
+    margin-top: 10px;
+    color: white;
 }
 
 
@@ -263,3 +384,214 @@ footer a:hover{
 footer p{
     font-family: 'Times New Roman', Times, serif;
 }
+
+.newrelase{
+    padding: 0;
+    display: block;
+}
+
+main .aa{
+    margin: 0;
+    padding: 0 !important;
+    background: linear-gradient(to bottom  , #000000 30% ,#14213D   90%);
+    box-shadow: 1px 1px 10px;
+
+}
+
+main .aa p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-top:60px;
+    padding-bottom: 50px;
+}
+
+
+main .aa button{
+    font-weight: 800;
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffffff;
+    position: relative;
+    top:10%;
+    left: 25%;
+    border: 3px solid #FFC300;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+    font-size: 1.2em;
+    transition: .5s ease-in-out;
+
+}
+
+main .aa button:hover{
+    color: #14213D;
+    background-color: #FFC300;
+    text-shadow: 2px 2px 10px #ffffff;
+    box-shadow: 1px 1px 10px #ffffff;
+    transform: scale(1.1);
+}
+
+main .events .event{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px;
+    text-align: center;
+    background: linear-gradient(to top  , #000000 30% ,#14213D   90%);
+}
+
+main .events .event h1{
+
+   
+}
+
+/* main .events .event img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -5;
+    object-fit: cover;
+    
+
+} */
+
+main .events .event h1{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000;
+}
+main .events .event h2{
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: #FFC300;
+}
+main .events .event p{
+    color: #ffffff;
+}
+main .events a{
+    color: #FFC300;
+}
+
+main .aside .sp1{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #FFC300;
+    margin-bottom: 10px;
+}
+main .aside .sp2{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #FFC300;
+   
+}
+main .aside .sp3{
+    background: #FFC300;
+    margin-top: 10px;
+    position: relative;
+}
+
+main .aside .sp1 img{
+    position: absolute;
+    height: 100%;
+    margin: 0 !important;
+    width: 100%;
+    z-index: 5;
+    object-fit: cover;
+    
+}
+main .aside .sp2 img{
+    position: absolute;
+    height: 100%;
+    margin: 0 !important;
+    width: 100%;
+    z-index: 5;
+    object-fit: cover;
+
+}
+
+main .aside .sp3 img{
+    position: absolute;
+    height: 100%;
+    margin: 0 !important;
+    width: 100%;
+    z-index: 5;
+    object-fit: cover;
+
+}
+
+main .aside div{
+    position: relative;
+    width: 100%;
+    /* background: #FFC300; */
+}
+
+main .aside{
+    background: #000000;
+    padding: 20px;
+    background:  linear-gradient(to bottom  , #14213D 30% ,#FFC300 40%, #14213D 80%);
+}
+
+
+
+main .aside img{
+    margin-top: 0;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+
+}
+
+
+
+main .aside .sp2{
+    margin: 0 !important;
+    width: 100%;
+    z-index: 2;
+    object-fit: cover;
+
+}
+
+
+
+
+
+main .aside .sp1 p{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 60%;
+    background: rgba(0,0,0,0.7);
+    color:#ffffff ;
+    
+
+}
+
+main .mid .newrelase{
+    margin: 0;
+    margin-top: 10px;
+    /* width: 100%; */
+    background: linear-gradient(to top  , #000000 30% ,#14213D   90%);;
+}
+
+main .mid .newrelase h1{
+    color: #FFC300;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+main .mid .newrelase p{
+    color: white;
+}
+
+.slide.active {
+    display: block;
+  }
