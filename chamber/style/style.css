@@ -43,7 +43,6 @@ nav .navigation a{
     color:#ffffff;
     text-decoration: none;
     font-size: 1.5em;
-    color: #ffffff;
     text-decoration: none;
     font-size: 1.5rem;
     justify-self: center;
@@ -417,7 +416,7 @@ main .aa button{
     left: 25%;
     border: 3px solid #FFC300;
     text-align: center;
-    padding: 20px;
+    padding: 2rem;
     width: 50%;
     border-radius: 20px;
     font-size: 1.2em;
@@ -474,6 +473,7 @@ main .events .event p{
 }
 main .events a{
     color: #FFC300;
+    margin-bottom: 5px;
 }
 
 main .aside .sp1{
@@ -534,6 +534,7 @@ main .aside div{
 }
 
 main .aside{
+    box-shadow: 1px 1px 6px #000000;
     background: #000000;
     padding: 20px;
     background:  linear-gradient(to bottom  , #14213D 30% ,#FFC300 40%, #14213D 80%);
@@ -595,3 +596,12 @@ main .mid .newrelase p{
 .slide.active {
     display: block;
   }
+
+main .weather img{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
