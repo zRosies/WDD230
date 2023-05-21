@@ -20,7 +20,7 @@
     header{
 
         padding: 0;
-        position: sticky;
+        /* position: sticky; */
         box-sizing: border-box;
         width: 100%;
         margin: 0;
@@ -77,9 +77,10 @@
     }
 
     header .elements{
-
+        
         position: relative;
         left: 5%;
+        box-sizing: border-box;
         /* margin-left: 15px; */
     }
 
@@ -87,6 +88,7 @@
         width: 60px;
         height: 60px;
         margin: 0;
+        box-sizing: border-box;
     }
     .navigation2.responsive a{
         display: block;
@@ -155,7 +157,7 @@
 
     }
     .hero{
-        
+        box-sizing: border-box;
         padding: 80px;
         margin: 15px;
     }
