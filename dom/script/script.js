@@ -19,24 +19,24 @@ function RenderChapter(){
     
     const li= document.createElement('li');
     li.innerHTML= input.value;
-
-    const del = document.createElement('button');
-    del.innerHTML="❌"
-   
-    list.appendChild(li)
-    li.appendChild(del)
-    input.value ='';
+    if (input.value != 0){
+      const del = document.createElement('button');
+      del.innerHTML="❌"
     
+      list.appendChild(li)
+      li.appendChild(del)
+      input.value ='';
+      
 
-    del.addEventListener('click', function() {
-        li.remove();
-      });
+      del.addEventListener('click', function() {
+          li.remove();
+        });
+    }
 
 }
 
 
-
-
-
-
 button.addEventListener('click', RenderChapter);
+
+
+
