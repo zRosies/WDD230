@@ -16,7 +16,10 @@
     <header>
         <nav>
             <div class="elements">
-                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                <picture>
+                    <source media="(max-width: 200px )" srcset="img/imagens/logo.jpg">
+                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                </picture>
                 <div class="test">
                     <h1>Rio 360</h1>
                     <p>Chamber of Commerce</p>
@@ -33,7 +36,7 @@
                 <a href="https://www.linkedin.com/feed/" target="_blank"><img class="ins" src="img/inst.png" alt="linkedin" ></a>
             </div>
             <button id="ham">&#9776;</button>
-            <!-- <button id="close"> &#x2716</button>  -->
+
               
         </nav>
         <div class="navigation2">
@@ -78,10 +81,14 @@
             </section>
             <section class="mid">
                 <div class="hero">
-                    
-                    <img class="im1" src="img/pexels-luan-gonçalves-13911606.jpg" alt="rio">
-                    <img class="im2" src="img/pexels-matheus-de-moraes-gugelmim-13299171.jpg" alt ='rio1'>
-                    <img class = "im3" src="img/pexels-victor-freitas-1072839.jpg" alt="rio2">
+                    <picture>
+                        <source media="(max-width: 200px )" srcset="img/imagens/hero200.jpg">
+                        <source media="(max-width: 500px )" srcset="img/imagens/hero500.jpg">
+                        <source media="(max-width: 800px )" srcset="img/imagens/hero800.jpg">
+                        <img class="im1" src="img/hero.jpg" alt="rio">
+                    </picture>
+                    <!-- <img class="im2" src="img/pexels-matheus-de-moraes-gugelmim-13299171.jpg" alt ='rio1'>
+                    <img class = "im3" src="img/pexels-victor-freitas-1072839.jpg" alt="rio2"> -->
                     
                     <h1>Welcome to Rio360 Chamber</h1>
                     <button>Join the Chamber</button>
