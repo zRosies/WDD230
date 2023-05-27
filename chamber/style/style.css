@@ -11,6 +11,7 @@ body{
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
+    
 }
 .elements{
     display: flex;
@@ -116,8 +117,9 @@ main .hero{
 }
 
 
-
-.im1{}
+body{
+    background: linear-gradient(to top, #ffffff 10% , #000000 50% ,#ffffff 100%);
+}
 
 .im2{
     transform: translateX(100%);
