@@ -156,9 +156,12 @@
         margin: 0;
 
     }
+    main .hero button{
+        left: 30%;
+    }
     .hero{
         box-sizing: border-box;
-        padding: 80px;
+        padding: 0;
         margin: 15px;
     }
     .mid{
@@ -169,9 +172,7 @@
         padding: 80px;
         display: none;
     }
-    .nrsmall{
-        display: block;
-    }
+  
     .events{
         display: flex;
         flex-direction: column;
@@ -240,5 +241,15 @@
 
     .placeholder div{
         box-shadow: 1px 1px 5px #000000;
+    }
+    .nrsmall{
+        display: block;
+        padding: 20px !important;
+    }
+    main .aside .sp2 .sp2p2{
+        top: 83%;
+    }
+    main .aside .sp2 .sp2p{
+        top: 75%;
     }
 }

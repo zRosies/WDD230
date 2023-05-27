@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta  name="description" content="Chamber of Commerce Rio de Janeiro">
+    <meta  name="description" content="Chamber of Commerce Rio de Janeiro website, intendend for chamber of commerce">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/medium.css">
     <link rel="stylesheet" href="style/small.css">
@@ -16,10 +16,15 @@
     <header>
         <nav>
             <div class="elements">
-                <picture>
-                    <source media="(max-width: 200px )" srcset="img/imagens/logo.jpg">
-                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-                </picture>
+                
+                <a class="non" href="index.html">
+                    
+                    <picture>
+                        <source srcset="img/logo.webp" type="image/webp">
+                        <img src="img/logo.png" alt="logo">
+                    </picture>
+                   
+                </a> 
                 <div class="test">
                     <h1>Rio 360</h1>
                     <p>Chamber of Commerce</p>
@@ -64,8 +69,18 @@
                     </p>
                     <a href="#">Link for the webnar</a>
                 </div>
-                <div class="weather">(To be Done)
-                    <img src="img/weather.avif" alt="weather">
+                <div class="weather">(In progess)
+                    <h1>Weather</h1>
+                    <picture>
+                        <img src="img/placeholder.png" alt="weatherimg" id="img" >
+                    </picture>
+                    
+                    <p>Temperature(F)<input id="temperature" value="0"></input></p>
+                    <span id="weathername"></span>
+                    <div>
+                        <p>Wind Speed(mp/h): <input id="windspeed" value="0"></input></p>
+                        <p>Wind Chill: <span id="windchill"></span> </p>
+                    </div>
                 </div>
                 <div class="aa">
                     <button>Join Us!</button>
@@ -75,15 +90,17 @@
                 </div>
                 <div class="nrsmall">
                     <h1>New Release</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati eius nam. Nisi deleniti sint inventore debitis accusamus. Sequi quibusdam nisi sit ad dolorem deserunt est quo dolores placeat vitae.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate harum architecto dolore tempora recusandae dignissimos rem voluptatum quaerat, ut facilis, laboriosam ullam quo, omnis illo aliquam vero cumque explicabo quod!</p>
+                    <p>Rio de Janeiro, May 27, 2023 - The Chamber of Commerce is delighted to invite all 
+                        passionate entrepreneurs and investors to an enlightening seminar focused on unlocking the untapped potential 
+                        of tourism investments in Rio de Janeiro.With its breathtaking landscapes, vibrant culture, and iconic attractions, Rio de Janeiro has long been renowned as a magnet for travelers from across the globe. The Chamber of Commerce Seminar will provide invaluable insights and knowledge on how to capitalize on this growing demand and turn it into profitable investments. By attending this event, participants will gain a comprehensive understanding of the key factors that drive success in Rio's dynamic tourism 
+                        sector.Whether you are a seasoned investor seeking to expand your portfolio or an aspiring entrepreneur looking for a breakthrough opportunity, this Chamber of Commerce Seminar is the gateway to unlocking the boundless potential of tourism investments in Rio de Janeiro. Join us for an insightful and enriching event that will empower you to maximize your investments in this vibrant and promising sector.</p>
                 </div>
             </section>
             <section class="mid">
                 <div class="hero">
                     <picture>
-                        <source media="(max-width: 320px )" srcset="img/imagens/testhero320.jpg">
-                        <source media="(max-width: 768px )" srcset="img/imagens/testhero768.jpg">
+                        <source media="(max-width: 667px )" srcset="img/imagens/testhero667.jpg">
+                        <source media="(max-width: 920px )" srcset="img/imagens/testhero800.jpg">
                         <source media="(max-width: 1200px )" srcset="img/imagens/testhero1200.jpg">
                         <img class="im1" src="img/imagens/testherodefault.jpg" alt="rio">
                     </picture>
@@ -96,22 +113,48 @@
                 </div>
                 <div class="newrelase">
                     <h1>New Release</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam obcaecati eius nam. Nisi deleniti sint inventore debitis accusamus. Sequi quibusdam nisi sit ad dolorem deserunt est quo dolores placeat vitae.
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium fugit esse assumenda quidem at iure unde consectetur totam nostrum rem qui quam consequatur, excepturi omnis, vero delectus dolores non tempora?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis rerum sint aliquam est, adipisci in atque debitis placeat corporis beatae ipsam cupiditate, harum ex quo consequuntur illum molestias inventore doloremque.</p>
+                    <p>Rio de Janeiro, May 27, 2023 - The Chamber of Commerce is delighted to invite all 
+                        passionate entrepreneurs and investors to an enlightening seminar focused on unlocking the untapped potential 
+                        of tourism investments in Rio de Janeiro.With its breathtaking landscapes, vibrant culture, and iconic attractions, Rio de Janeiro has long been renowned as a magnet for travelers from across the globe. The Chamber of Commerce Seminar will provide invaluable insights and knowledge on how to capitalize on this growing demand and turn it into profitable investments. By attending this event, participants will gain a comprehensive understanding of the key factors that drive success in Rio's dynamic tourism 
+                        sector.Whether you are a seasoned investor seeking to expand your portfolio or an aspiring entrepreneur looking for a breakthrough opportunity, this Chamber of Commerce Seminar is the gateway to unlocking the boundless potential of tourism investments in Rio de Janeiro. Join us for an insightful and enriching event that will empower you to maximize your investments in this vibrant and promising sector.
+
+                    </p>
                 </div>
             </section>
             <section class="aside">
                 <div class="sp1">
-                    <img src="img/eventimg.jpg" alt="event">
-                    <!-- <h1>Tourism Investments</h1> -->
+                    <picture>
+                        <source media="(max-width: 667px )" srcset="img/imagens/eventimg667.jpg">
+                        <source media="(max-width: 800px )" srcset="img/imagens/eventimg800.jpg">
+                        <source media="(max-width: 1200px )" srcset="img/imagens/eventimg1200.jpg">
+                        <img src="img/eventimg.jpg" alt="event">
+                    </picture>
+                        <h3>Invest in our amazing beaches!</h3>
+                        <p class="sp1p">Email: rioturism@gmail.com</p>
+                        <a href="">><p class="sp1p2">Contact: +55 98325-3238</p></a>
+                  
                     <!-- <p>Rio de Janeiro's tourism sector promises lucrative returns, fueled by the city's breathtaking attractions, cultural richness, and thriving hospitality industry</p> --> -->
                 </div>
                 <div class="sp2">
-                    <img src="img/sp2.jpg" alt="event2">
+                    <picture>
+                        <source media="(max-width: 667px )" srcset="img/imagens/sp2667.jpg">
+                        <source media="(max-width: 800px )" srcset="img/imagens/sp2800.jpg">
+                        <source media="(max-width: 1200px )" srcset="img/imagens/sp21200.jpg">
+                        <img src="img/sp2default.jpg" alt="event2">
+                    </picture>
+                    <h3>Bring your restaurants here</h3>
+                    <p class="sp2p">Email: riourca@gmail.com</p>
+                    <a href="">><p class="sp2p2">Contact: +55 21 9932-42434</p></a>
+
                 </div>
                 <div class="sp3">
-                    <img src="img/sp3.jpg" alt="event3">
+                    <picture>
+                        <!--this spotlight disappear in smaller views-->
+                        <img src="img/sp3default.jpg" alt="event3">
+                    </picture>
+                    <h3>Invest in our culture</h3>
+                    <p class="sp3p">Email: CCBB@gmail.com</p>
+                    <a href="">><p class="sp3p2">Contact: +55 21 3235-42334</p></a>
                 </div>
             </section>
 
@@ -122,7 +165,10 @@
         
         <div class="container">
             <div class="chamber">
-                <img src="img/logo.png" alt="logo">
+                <picture>
+                    <source srcset="img/logo.webp" type="image/webp">
+                    <img src="img/logo.png" alt="logo">
+                </picture>
                 <div>
                     <p>Rio 360 Chamber of Commerce</p>
                     <p>Praia Vermelha, Urca, Rio de Janeiro - RJ</p>
@@ -139,6 +185,7 @@
         <p> <span id="year"></span> &copy; Rio 360 Chamber | Gustavo Bispo | WDD Project | Last modification: <span id="last"></span> </p>
     </footer>
     <script src="script/script.js"></script>
+    <script src="script/windchill.js"></script>
     
 </body>
 </html>

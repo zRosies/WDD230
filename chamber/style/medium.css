@@ -1,4 +1,4 @@
-@media screen and (min-width: 668px) and (max-width:1300px) {
+@media screen and (min-width: 668px) and (max-width:1200px) {
     body{
         margin: 0 auto;
         width: 100%;
@@ -205,9 +205,17 @@
     main .aa button{
         padding: 0;
         width: 30%;
-        height: 60%;
+        height: 40%;
         top: 20%;
         left: 35%;
+    }
+    main .aside .sp2 .sp2p{
+        top: 70%;
+    }
+    main .aside .sp2 .sp2p2{
+   
+        top: 80%;
+      
     }
 }
 
