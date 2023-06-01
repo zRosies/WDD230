@@ -37,3 +37,16 @@ images.forEach(image => {
     
 
 });
+
+// lastupdated
+
+const date = new Date();
+const year =date.getFullYear();
+document.querySelector("#year").innerHTML=year;
+
+const modi = document.lastModified;
+const lastupdate = new Date(modi);  
+const formtdate = lastupdate.toLocaleString('en-Us');
+
+
+document.getElementById('last').textContent =  formtdate;
