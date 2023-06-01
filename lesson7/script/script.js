@@ -9,7 +9,6 @@ function preloadImage(img){
     img.src=src;
     img.addEventListener('load', () => {
         img.style.opacity = 1;
-        [data-src].style.opacity=0;
       });
   
 }
