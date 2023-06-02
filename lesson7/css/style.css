@@ -42,11 +42,12 @@ header{
 footer{
     margin-top: 50px;
     text-align: center;
-    align-content: center;
+    align-items: center;
     padding: 10px;
     background: #175067;
     color: white;
     font-size: 1.1em;
+
 }
 
 span{
