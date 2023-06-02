@@ -679,11 +679,12 @@ main .mid .newrelase{
 }
 
 
-main .mid .newrelase h1{
+main .mid .newrelase h2{
     color: #FFC300;
     text-align: center;
     font-size: 1.5em;
-    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 main .mid .newrelase p{
@@ -711,7 +712,7 @@ main .weather img{
 }
 
 
-.weather h1{
+.weather h2{
     text-align: center;
 }
 .weather p{
