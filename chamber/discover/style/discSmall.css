@@ -1,0 +1,255 @@
+@media screen and (max-width:667px){
+    /* *{
+        border: .5px solid blue;
+    } */
+    h1{
+        font-size: 1em;
+    }
+    body{
+       
+        margin: 0 auto;
+        width: 100%;
+    }
+    header .images{
+        margin: 0;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    header{
+
+        padding: 0;
+        /* position: sticky; */
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    nav{
+        box-sizing: border-box;
+        /* width: 100%; */
+    }
+    button{
+        margin-right: 10px;
+        color:#000000;
+        display: block;
+    }
+    footer{
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+    }
+    header .navigation2 a{
+        width: 100%;
+        margin: 0;
+        
+    }
+    header nav{
+        width: 100%;
+        margin: 0;
+    }
+    .navigation{
+        display: none;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+  
+    .fb, .ins{
+        width: 25px;
+        height: 25px;
+    }
+    #ham{
+        align-self: center;
+        background-color: #000000;
+        justify-content: center;
+        font-size: 2em;
+        display: flex;
+        height: 50px;
+        width: 60px; 
+        color: #ffffff;
+        border: none;
+
+    }
+
+    header .elements{
+        
+        position: relative;
+        left: 5%;
+        box-sizing: border-box;
+        /* margin-left: 15px; */
+    }
+
+    header .elements img{
+        width: 60px;
+        height: 60px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .navigation2.responsive a{
+        display: block;
+        box-sizing: border-box;
+    }
+    .responsive{
+        width: 100%;
+    }
+    
+    .responsive a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding: 10px;
+        box-shadow: 1px 1px 7px #FFC300;
+        border-top: .5px solid #ffffff;
+        
+    }
+    .navigation2{
+        transition: .5s ease-in-out;
+        width: 100%;
+    }
+   
+    .navigation2.responsive{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+        transition: .5s ease-in-out;
+        width: 100%;
+    }
+    .navigation2.responsive a{
+        width: 100%;
+
+    }
+    .responsive a:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    nav .navigation a{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .test{
+        margin-right: 0;
+        display: block;
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+    .chamber{
+        display: block;
+        margin-left: 20%;
+        justify-content: center;
+
+    }
+    .placeholder{
+        display: flex;
+        flex-direction:column ;
+        margin: 0;
+
+    }
+    main .hero button{
+        left: 30%;
+    }
+    .hero{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 15px;
+    }
+    .mid{
+        margin:0;
+        order: -1;
+    }
+    .newrelase{
+        padding: 80px;
+        display: none;
+    }
+  
+    .events{
+        display: flex;
+        flex-direction: column;
+    }
+    main .weather{
+        padding: 100px;
+    }
+
+    .events .join{
+        display: none;
+    } 
+    main .aside .sp3{
+        display: none;
+        padding: 0;
+    }
+    .sp1{
+        margin-top: 20px;
+    }
+    .sp2{
+        margin-bottom: 20px;
+    }
+    main .aside .sp1{
+        position: relative;
+        padding:0;
+        margin: 0;
+        overflow: hidden;
+        background: #FFC300;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 12em;
+    }
+    main .aside{
+        position: relative;
+        padding: 20px;
+        display: grid;
+        grid-template-rows: 2fr 2fr;
+        grid-template-columns: 1fr;
+        padding: 20px;
+        box-shadow: 1px 1px 5px #000000;
+    }
+    main .nrsmall{
+        padding: 0;
+        
+        margin: 0;
+    }
+    main .nrsmall{
+        margin: 0;
+        margin-top: 10px;
+        /* width: 100%; */
+        background: linear-gradient(to top  , #000000 30% ,#14213D   90%);;
+        
+    }
+    
+    main .nrsmall h1{
+        color: #FFC300;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    main .nrsmall p{
+        color: white;
+    }
+    main .aa button{
+        margin-top: 10px;
+    }
+
+    .placeholder div{
+        box-shadow: 1px 1px 5px #000000;
+    }
+    .nrsmall{
+        display: block;
+        padding: 20px !important;
+    }
+    main .aside .sp2 .sp2p2{
+        top: 83%;
+    }
+    main .aside .sp2 .sp2p{
+        top: 75%;
+    }
+}

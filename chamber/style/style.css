@@ -471,6 +471,7 @@ main .aside .sp2{
     margin: 0;
     overflow: hidden;
     background: #FFC300;
+    background: rgba(49, 48, 48, 0.7);
    
 }
 main .aside .sp3{
@@ -478,6 +479,7 @@ main .aside .sp3{
     margin-top: 10px;
     position: relative;
     overflow: hidden;
+    background: rgba(49, 48, 48, 0.7);
 }
 
 main .aside .sp1 h3{

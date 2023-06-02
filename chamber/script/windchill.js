@@ -4,6 +4,10 @@ let temperatureInput= document.querySelector("#temperature");
 let windspeedInput= document.querySelector("#windspeed");
 let windchilloutput = document.querySelector("#windchill");
 
+temperatureInput.textContent= 5;
+windspeedInput.textContent=5;
+
+console.log(temperatureInput);
 
 function calculateWindChill(temperature, windspeed){
     let f=0
@@ -18,21 +22,24 @@ else{
 return f
 }
 
-temperatureInput.addEventListener("input", function() {
+
+windchilloutput.textContent=calculateWindChill(temperatureInput.textContent,windspeedInput.textContent);
+
+// temperatureInput.addEventListener("input", function() {
  
-    let temperature=parseFloat(temperatureInput.value) ;
-    let windspeed= parseFloat(windspeedInput.value);
-    windchilloutput.innerHTML= calculateWindChill(temperature, windspeed);
+//     let temperature=parseFloat(temperatureInput.value) ;
+//     let windspeed= parseFloat(windspeedInput.value);
+//     windchilloutput.innerHTML= calculateWindChill(temperature, windspeed);
 
-});
+// });
   
-windspeedInput.addEventListener("input", function() {
+// windspeedInput.addEventListener("input", function() {
 
-    let temperature=parseFloat(temperatureInput.value) ;
-    let windspeed= parseFloat(windspeedInput.value);
-    windchilloutput.innerHTML=calculateWindChill(temperature, windspeed);
+//     let temperature=parseFloat(temperatureInput.value) ;
+//     let windspeed= parseFloat(windspeedInput.value);
+//     windchilloutput.innerHTML=calculateWindChill(temperature, windspeed);
 
-});
+// });
 
 
 // windchilloutput.innerHTML=calculateWindChill(temperature,windspeed);
