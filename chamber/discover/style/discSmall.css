@@ -140,116 +140,25 @@
         margin-right: 0;
         display: block;
     }
-    .container{
-        justify-content: center;
-        align-items: center;
+    section div{
+        flex-direction: column !important;
     }
-    .chamber{
-        display: block;
-        margin-left: 20%;
-        justify-content: center;
-
+    section div img{
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
     }
-    .placeholder{
-        display: flex;
-        flex-direction:column ;
-        margin: 0;
-
-    }
-    main .hero button{
-        left: 30%;
-    }
-    .hero{
-        box-sizing: border-box;
-        padding: 0;
-        margin: 15px;
-    }
-    .mid{
-        margin:0;
-        order: -1;
-    }
-    .newrelase{
-        padding: 80px;
-        display: none;
-    }
-  
-    .events{
-        display: flex;
-        flex-direction: column;
-    }
-    main .weather{
-        padding: 100px;
-    }
-
-    .events .join{
-        display: none;
-    } 
-    main .aside .sp3{
-        display: none;
-        padding: 0;
-    }
-    .sp1{
-        margin-top: 20px;
-    }
-    .sp2{
-        margin-bottom: 20px;
-    }
-    main .aside .sp1{
-        position: relative;
+    section div p{
         padding:0;
-        margin: 0;
-        overflow: hidden;
-        background: #FFC300;
-        margin-bottom: 10px;
-        width: 100%;
-        height: 12em;
     }
-    main .aside{
-        position: relative;
-        padding: 20px;
-        display: grid;
-        grid-template-rows: 2fr 2fr;
-        grid-template-columns: 1fr;
-        padding: 20px;
-        box-shadow: 1px 1px 5px #000000;
+    section .background img{
+        margin: 0 auto;
+        width: 300px;
+        height: 300px !important;
+
     }
-    main .nrsmall{
-        padding: 0;
-        
-        margin: 0;
-    }
-    main .nrsmall{
-        margin: 0;
-        margin-top: 10px;
-        /* width: 100%; */
-        background: linear-gradient(to top  , #000000 30% ,#14213D   90%);;
-        
-    }
-    
-    main .nrsmall h1{
-        color: #FFC300;
-        text-align: center;
-        font-size: 1.5em;
-    }
-    
-    main .nrsmall p{
-        color: white;
-    }
-    main .aa button{
-        margin-top: 10px;
+    img:hover{
+        transform: none !important;
     }
 
-    .placeholder div{
-        box-shadow: 1px 1px 5px #000000;
-    }
-    .nrsmall{
-        display: block;
-        padding: 20px !important;
-    }
-    main .aside .sp2 .sp2p2{
-        top: 83%;
-    }
-    main .aside .sp2 .sp2p{
-        top: 75%;
-    }
 }
