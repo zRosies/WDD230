@@ -147,9 +147,15 @@
         margin: 0 auto;
         width: 300px;
         height: 300px;
+        margin-top: 20px;
     }
     section div p{
         padding:0;
+       margin: 0;
+       font-size: .9em;
+       padding: 10px;
+       margin-top: 20px;
+        
     }
     section .background img{
         margin: 0 auto;
@@ -157,8 +163,16 @@
         height: 300px !important;
 
     }
+    section div{
+        margin: 0;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
     img:hover{
         transform: none !important;
+    }
+    section{
+        margin: 0;
     }
 
 }

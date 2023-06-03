@@ -99,6 +99,7 @@
     section div p{
         padding: 0;
         margin: 20px;
+        padding: 20px !important;
     }
     section img{
         margin: 0 auto;
