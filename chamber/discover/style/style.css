@@ -115,6 +115,13 @@ header img:hover{
     transform: scale(1.1);
 
 }
+header .images{
+    margin: 0;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 
 main{
@@ -169,6 +176,8 @@ width: 500px;
 margin-bottom: 10px;
     
 }
+
+
 
 footer{
     padding: 25px;
