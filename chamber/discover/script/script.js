@@ -44,9 +44,6 @@ if(getday == 1 || getday == 2){
 	banner.style.display='block';
 }
 
-console.log(getday)
-
-
 
 //main
 
@@ -101,3 +98,30 @@ images.forEach(image => {
     
 
 });
+
+// Number of visits
+
+const visits = document.querySelector("#visits");
+let lastVisitDate = window.localStorage.getItem("lastVisitDate");
+let daysSinceLastVisit;
+
+
+if (lastVisitDate) {
+  lastVisitDate = new Date(lastVisitDate);
+
+  const timeDifference = new Date() - lastVisitDate;
+  
+    //CHECK the amount of days by adding a fixed(miliseconds) number to timeDifference below
+    //ex 10000 = +-24hours
+  daysSinceLastVisit = Math.round(timeDifference / (24 * 60 * 60 * 1000));
+  console.log(daysSinceLastVisit)
+} else {
+  daysSinceLastVisit = 0;
+}
+
+
+visits.textContent = daysSinceLastVisit;
+
+
+
+window.localStorage.setItem("lastVisitDate", new Date().toISOString());
