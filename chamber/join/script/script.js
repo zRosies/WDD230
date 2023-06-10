@@ -46,28 +46,22 @@ if(getday == 1 || getday == 2){
 
 //submission form and userload//
 
+const submit = document.querySelector("#submission")
+
 function submission(event){
 
 
     let form = document.getElementById("myform");
     let formData = new FormData(form);
+	
+	let currentdateandtime= new Date().toISOString();
+	submit.value= currentdateandtime;
+	// console.log(load.value)
  
     window.location.href = "thankyou.html";
     
     event.preventDefault();
 
 }
-
-
-window.onload=function(){
-	
-	let load = document.querySelector("#submission");
-	let currentdateandtime= new Date().toISOString();
-	load.value= currentdateandtime;
-
-	// console.log(currentdateandtime)
-
-}
-
 
 
