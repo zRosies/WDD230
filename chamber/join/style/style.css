@@ -174,7 +174,6 @@ button:hover{
 .membership{
     display: flex;
     flex-direction: row;
-    justify-items: space-between;
     border: 10px solid #14213D;
     box-shadow: -1px 3px 8px #ffffff, -2px 1px 10px #FFC300;
     background: white;
