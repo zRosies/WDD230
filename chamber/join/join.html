@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/joinmedium.css">
+    <link rel="stylesheet" href="style/joinsmall.css">
+
+</head>
+<body>
+        <header>
+            <nav>
+                <div class="elements">
+                    
+                    <a class="non" href="../index.html">
+                        
+                        <picture>
+                            <source srcset="img/logo.webp" type="image/webp">
+                            <img src="img/logo.png" alt="logo">
+                        </picture>
+                       
+                    </a> 
+                    <div class="test">
+                        <h1>Rio 360</h1>
+                        <p>Chamber of Commerce</p>
+                    </div>
+                    <div class="navigation">
+                        <a href="/chamber/discover/discover.html">Discover</a>
+                        <a href="#">Directory</a>
+                        <a href="join.html">Join</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="images">
+                    <a href="https://www.facebook.com" target="_blank"><img class="fb" src="img/fb.png" alt="facebook" ></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><img class="ins" src="img/inst.png" alt="linkedin" ></a>
+                </div>
+                <button id="ham">&#9776;</button>
+    
+                  
+            </nav>
+            <div class="navigation2">
+                <a href="./discover.html">Discover</a>
+                <a href="#">Directory</a>
+                <a href="join.html">Join</a>
+                <a href="#">Contact</a>
+            </div> 
+            <p id="banner"> 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p> 
+            <span id="datetime"></span>   
+            
+        </header>
+        <main>
+            <table>
+                <tr>
+                    <td>
+                        <form id="myform" action="thankyou.html" method="get">
+                            <label for="first">First Name: </label>
+                            <input type="text" name="first" required>
+
+                            <label for="last">Last Name: </label>
+                            <input type="text" name="last"required>
+
+                            <label for="position" >Business Position</label>
+                            <input type="text" name="position" pattern="{A-Za -} {7,}" placeholder="Ex: CEO">
+
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" required placeholder="Ex:youremail@gmail.com">
+
+                            <label for="celphone">Cellphone: </label>
+                            <input type="tel" name="celphone" required>
+
+                            <label for="businesname">Business name: </label>
+                            <input type="businesname" name="businesname" required placeholder="Ex: McDonalds">
+
+                            <label for="membership">Choose your membership option</label>
+                            <select name="membership" required>
+                                <option value="" disabled selected>Select your choice</option>
+                                <option value="Non-Profitable Membership">Non-Profitable Membership</option>
+                                <option value="Bronze Membership">Bronze Membership</option>
+                                <option value="Silver Membership">Silver Membership</option>
+                                <option value="Gold Membership">Gold Membership</option>
+                            </select>
+
+                            <label for="textarea">Briefly describe your business</label>
+                            <textarea name="textarea" id="message" cols="30" rows="10" ></textarea>
+                            
+                            <button id="button" type="submit">Submit membership</button>
+                        </form>
+                    </td>
+                    <td colspan="2">
+                        <h1>Membership Options</h1>
+                        <div class="membership">
+                            <div class="np">
+                                <h2>Non-Profitable Membership</h2>
+                                <h3>Benefits:</h3>
+                                <ul>
+                                    <li>
+                                        Support to access our services.
+                                    </li>
+                                    <li>
+                                        Opportunities to make a positive impact on the community through volunteering and charitable initiatives.
+                                    </li>
+                                    <li>
+                                        Access to exclusive events and networking opportunities.
+                                    </li>
+                                </ul>
+                                <h4>No Fee</h4>
+                            </div>
+                            <div class="bronze">
+                                <h2>Bronze</h2>
+                                <h3>Benefits:</h3>
+                                <ul>
+                                    <li>Connect with local businesses and professionals.</li>
+                                    <li>Exclusive networking events.</li>
+                                    <li>Increase online visibility.</li>
+                                    <li>Listing in the chamber's online business directory.</li>
+                                </ul>
+                                <!-- <p>Networking Events: Connect with local businesses and professionals at exclusive networking events.</p> -->
+                                <h4>$30</h4>
+                            </div>
+                            <div class="silver">
+                                <h2>Silver</h2>
+                                <h3>Benefits:</h3>
+                                <ul>
+                                    <li>Boost business visibility.</li>
+                                    <li>Enhanced advertising opportunities.</li>
+                                    <li>Gain industry insights through exclusive seminars.</li>
+                                    <li>Enjoy enhanced advertising opportunities through chamber's marketing channels.</li>
+                                </ul>
+                                <h4>$70</h4>
+
+                            </div>
+                            <div class="gold">
+                                <h2>Gold</h2>
+                                <h3>Benefits:</h3>
+                                <ul>
+                                    <li>Unlock VIP access to exclusive business events.</li>
+                                    <li>Gain access to attractive investment opportunities.</li>
+                                    <li>Gain industry insights through exclusive seminars.</li>
+                                    <li>Connect with key decision-makers and potential investors.</li>
+                                </ul>
+                                <h4>$100</h4>
+                            </div>
+                          
+                        </div>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <span id="submission">
+            
+                </span>
+            </table>
+
+    
+
+
+
+        </main>
+        <footer>      
+            <div class="container">
+                <div class="chamber">
+                    <picture>
+                        <source srcset="img/logo.webp" type="image/webp">
+                        <img src="img/logo.png" alt="logo">
+                    </picture>
+                    <div>
+                        <p>Rio 360 Chamber of Commerce</p>
+                        <p>Praia Vermelha, Urca, Rio de Janeiro - RJ</p>
+                        <p>RJ, 22290-270</p>
+                     </div>
+                </div>
+                <div class="location">
+                    <p>info@Rio360chamber.org</p>
+                    <p>+(55) 2244-2325</p>
+                    <a href="https://www.google.com/maps/place/22%C2%B057'19.9%22S+43%C2%B009'54.7%22W/@-22.9555315,-43.165825,19z/data=!3m1!4b1!4m4!3m3!8m2!3d-22.9555315!4d-43.1651813?hl=pt-BR" target="_blank"> &#x1F4CD; Location Map</a>
+                </div>
+                
+            </div>
+            <p> <span id="year"></span> &copy; Rio 360 Chamber | Gustavo Bispo | WDD Project | Last modification: <span id="last"></span> </p>
+        </footer>
+        <script src="script/script.js"></script>
+</body>
+</html>

@@ -106,6 +106,8 @@ let lastVisitDate = window.localStorage.getItem("lastVisitDate");
 let daysSinceLastVisit;
 
 
+
+
 if (lastVisitDate) {
   lastVisitDate = new Date(lastVisitDate);
 

@@ -1,0 +1,29 @@
+
+h1{
+    padding: 30px;
+    background: linear-gradient(to right  , #000000 30% ,#14213D   90%);
+    color: #fff;
+    text-align: center;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 0;
+
+}
+
+body{
+}
+
+
+p{
+    font-size: 1.3em;
+    display: flex;
+    text-align: center;
+    padding:20px;
+    width: 50%;
+    border: 10px solid #14213D;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px;
+}
