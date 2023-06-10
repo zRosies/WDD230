@@ -178,13 +178,16 @@
     .membership{
         display: none;
     }
-    h1{
+    .ma{
         display: none;
     }
     form{
         margin: 0;
         width: 90%;
         
+    }
+    h1{
+        align-self: flex-start;
     }
     table{
         margin: 0;
