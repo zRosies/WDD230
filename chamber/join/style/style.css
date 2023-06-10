@@ -182,10 +182,6 @@ button:hover{
     align-content: start;
     /* box-shadow: -2px -1px 10px #FFC300; */
 }
-.testa{
-    margin-top: 50px;
-    align-content: start;
-}
 
 .membership div{
     width: 200px;
@@ -267,12 +263,21 @@ span{
     color: #FFC300;
 }
 
-.testa{
+.test{
     display: flex;
     flex-direction: column;
     margin-right: 100px;
     margin-bottom: 10px;
 }
+
+.testa{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
 
 
 footer .location a{
