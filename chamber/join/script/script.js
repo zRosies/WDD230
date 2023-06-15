@@ -46,22 +46,63 @@ if(getday == 1 || getday == 2){
 
 //submission form and userload//
 
-const submit = document.querySelector("#submission")
+const submit = document.querySelector("#submission");
+const form = document.querySelector("#myform")
 
-function submission(event){
 
 
-    let form = document.getElementById("myform");
-    let formData = new FormData(form);
-	
-	let currentdateandtime= new Date().toISOString();
-	submit.value= currentdateandtime;
-	// console.log(load.value)
- 
-    window.location.href = "thankyou.html";
-    
+
+form.addEventListener("submit", function(event) {
     event.preventDefault();
 
-}
+    // let formData = new FormData(form);
+    let positionInput = document.getElementById("position");
+    let positionValue = positionInput.value;
+
+    if (positionValue.trim() === "") {
+        positionValue="The business position was not filled by the user";
+    }
+
+    let positionPattern = /[A-Za-z -]{7,}$/;
+    if (!positionPattern.test(positionValue)) {
+        positionInput.style.boxShadow = "2px 2px 10px red";
+        alert("Please enter a valid position (minimum 7 characters, only letters, spaces, and hyphens allowed).");
+        return;
+    }
+
+    let currentdateandtime = new Date().toISOString();
+    let submitButton = document.getElementById("button");
+    submitButton.value = currentdateandtime;
+
+    form.submit();
+});
+
+
+
+// function submission(event) {
+// 	event.preventDefault();
+
+//     let form = document.getElementById("myform");
+//     let formData = new FormData(form);
+	
+//     let currentdateandtime = new Date().toISOString();
+//     submit.value = currentdateandtime;
+    
+//     window.location.href = "thankyou.html";
+   
+// }
+
+// submit.addEventListener('DOMContentLoaded', function () {
+// 	const form = document.getElementById('myform');
+// 	const positionInput = document.getElementById('position');
+
+// 	form.addEventListener('submit', function (event) {
+// 		if (!positionInput.checkValidity()) {
+// 			event.preventDefault(); // Prevent form submission
+// 			// Display an error message or perform any other necessary action
+// 			console.log('Invalid input. Please enter a valid business position.');
+// 		}
+// 	});
+// });
 
 

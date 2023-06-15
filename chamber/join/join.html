@@ -57,37 +57,47 @@
                 <tr>
                     <td>
                         <form id="myform" action="thankyou.html" method="get">
-                            <label for="first" >First Name: </label>
-                            <input type="text" name="first" id="first" required>
-
-                            <label for="laste">Last Name: </label>
-                            <input type="text" name="last" id="laste" required>
-
-                            <label for="position" >Business Position</label>
-                            <input type="text" name="position" id="position" pattern="{A-Za -} {7,}" placeholder="Ex: CEO">
-
-                            <label for="email">Email: </label>
-                            <input type="email" name="email" id="email" required placeholder="Ex:youremail@gmail.com">
-
-                            <label for="celphone">Cellphone: </label>
-                            <input type="tel" name="celphone" id="celphone" required>
-
-                            <label for="businesname">Business name: </label>
-                            <input type="text" name="businesname" id="businesname" required placeholder="Ex: McDonalds">
-
-                            <label for="membership">Choose your membership option</label>
-                            <select name="membership" id="membership" required>
-                                <option value="" disabled selected>Select your choice</option>
-                                <option value="Non-Profitable Membership">Non-Profitable Membership</option>
-                                <option value="Bronze Membership">Bronze Membership</option>
-                                <option value="Silver Membership">Silver Membership</option>
-                                <option value="Gold Membership">Gold Membership</option>
-                            </select>
-
-                            <label for="message">Briefly describe your business</label>
-                            <textarea name="textarea" id="message" cols="30" rows="10" ></textarea>
+                            <label for="first">First Name<span class="red">*</span>: 
+                                <input type="text" name="first" id="first" required>
+                            </label>
+                            
+                            <label for="laste">Last Name<span class="red">*</span>: 
+                                <input type="text" name="last" id="laste" required>
+                            </label>
+                            
+                            <label for="position">Business Position: 
+                                <input type="text" name="position" id="position" pattern="[A-Za-z -]{7,}" placeholder="Ex: Software Engineer">
+                            </label>
+                            
+                            <label for="email">Email<span class="red">*</span>: 
+                                <input type="email" name="email" id="email" required placeholder="Ex: youremail@gmail.com">
+                            </label>
+                            
+                            <label for="celphone">Cellphone<span class="red">*</span>: 
+                                <input type="tel" name="celphone" id="celphone" required>
+                            </label>
+                            
+                            <label for="businesname">Business name<span class="red">*</span>: 
+                                <input type="text" name="businesname" id="businesname" required placeholder="Ex: McDonalds">
+                            </label>
+                            
+                            <label for="membership">Choose your membership option<span class="red">*</span>
+                                <select name="membership" id="membership" required>
+                                    <option value="" disabled selected>Select your choice</option>
+                                    <option value="Non-Profitable Membership">Non-Profitable Membership</option>
+                                    <option value="Bronze Membership">Bronze Membership</option>
+                                    <option value="Silver Membership">Silver Membership</option>
+                                    <option value="Gold Membership">Gold Membership</option>
+                                </select>
+                            </label>
+                            
+                            <label for="message">Briefly describe your business
+                                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                            </label>
+                           
                             
                             <button id="button" type="submit">Submit membership</button>
+                            <input id="submission"></input>
                         </form>
                     </td>
                     <td class="testa">
@@ -144,7 +154,7 @@
                                 </ul>
                                 <h4>$100</h4>
                             </div>
-                            <span id="submission"></span>
+                            
                         </div>
 
                     </td>

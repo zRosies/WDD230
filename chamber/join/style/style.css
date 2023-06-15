@@ -147,6 +147,7 @@ form label{
 
 form input{
     margin-bottom: 10px;
+    width: 100%;
 }
 
 select{
@@ -170,7 +171,14 @@ button:hover{
     transform: scale(1.1);
     box-shadow: 2px 2px 10px #0b0b0b;
 }
+.red{
+    color: red  ;
+    font-size: 1em;
+}
 
+#submission{
+    display: none;
+}
 .membership{
     display: flex;
     flex-direction: row;
@@ -337,6 +345,11 @@ main{
     justify-content: center;
     background: linear-gradient(to bottom  , #282727 30% ,#14213D   90%);
     
+}
+
+textarea{
+    width: 100%;
+
 }
 
 
