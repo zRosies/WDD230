@@ -731,7 +731,7 @@ main .weather img{
 } 
 
 main{
-    background: linear-gradient(to top, #ffffff 10% , #302f2f 50% ,#ffffff 100%);
+    /* background: linear-gradient(to top, #ffffff 10% , #302f2f 50% ,#ffffff 100%); */
 }
 
 

@@ -1,0 +1,223 @@
+@media screen and (max-width:667px){
+    /* *{
+        border: .5px solid blue;
+    } */
+    h1{
+        font-size: 1em;
+    }
+    body{
+       
+        margin: 0 auto;
+        width: 100%;
+    }
+    header .images{
+        margin: 0;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    header{
+
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    nav{
+        box-sizing: border-box;
+        /* width: 100%; */
+    }
+    button{
+        margin-right: 10px;
+        color:#000000;
+        display: block;
+    }
+    footer{
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+    }
+    header .navigation2 a{
+        width: 100%;
+        margin: 0;
+        
+    }
+    header nav{
+        width: 100%;
+        margin: 0;
+    }
+    .navigation{
+        display: none;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+  
+    .fb, .ins{
+        width: 25px;
+        height: 25px;
+    }
+    #ham{
+        align-self: center;
+        background-color: #000000;
+        justify-content: center;
+        font-size: 2em;
+        display: flex;
+        height: 50px;
+        width: 60px; 
+        color: #ffffff;
+        border: none;
+
+    }
+
+    header .elements{
+        
+        position: relative;
+        left: 5%;
+        box-sizing: border-box;
+        /* margin-left: 15px; */
+    }
+
+    header .elements img{
+        width: 60px;
+        height: 60px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .navigation2.responsive a{
+        display: block;
+        box-sizing: border-box;
+    }
+    .responsive{
+        width: 100%;
+    }
+    
+    .responsive a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding: 10px;
+        box-shadow: 1px 1px 7px #FFC300;
+        border-top: .5px solid #ffffff;
+        
+    }
+    .navigation2{
+        transition: .5s ease-in-out;
+        width: 100%;
+    }
+   
+    .navigation2.responsive{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 15px;
+        transition: .5s ease-in-out;
+        width: 100%;
+    }
+    .navigation2.responsive a{
+        width: 100%;
+
+    }
+    .responsive a:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    nav .navigation a{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .test{
+        margin-right: 0;
+        display: block;
+    }
+    section div{
+        flex-direction: column !important;
+    }
+    section div img{
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    section div p{
+        padding:0;
+       margin: 0;
+       font-size: .9em;
+       padding: 10px;
+       margin-top: 20px;
+       margin: 10px;
+        
+    }
+    section .background img{
+        margin: 0 auto;
+        width: 300px;
+        height: 300px !important;
+
+    }
+    section div{
+        margin: 0;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    img:hover{
+        transform: none !important;
+    }
+    section{
+        margin: 0;
+    }
+    .membership{
+        display: none;
+    }
+    .ma{
+        display: none;
+    }
+    form{
+        margin: 0;
+        width: 90%;    
+    }
+    
+    h1{
+        align-self: flex-start;
+    }
+    table{
+        margin: 0;
+        margin: 50px;
+       
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+    }
+    .cards{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cards.list{
+        margin: 10px;
+        width: 85%;
+    }
+    .cards.list section{ 
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .cards.list h1{
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        justify-self: center;
+    }
+}
