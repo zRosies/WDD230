@@ -165,9 +165,9 @@ header .images{
     background: none;
     width: 90px;
     box-shadow: -2px 4px 2px;
-    color: #000000;
+    color: #14213D;
     border-radius: 10px;
-    border: 3px solid #000000;
+    border: 3px solid #14213D;
 
 }
 
@@ -192,6 +192,7 @@ header .images{
     margin: 0;
     margin-left: 20px;
     margin-bottom: 10px;
+    transition: .2s ease-in-out;
 }
 
 .cards.list p, a{
