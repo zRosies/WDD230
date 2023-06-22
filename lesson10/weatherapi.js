@@ -14,8 +14,6 @@ let cities = "Fairbanks";
 let units = "imperial"
 
 
-
-
 async function getData(input){
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${input}&units=imperial&appid=6eeb60c2a0b2304607c541b011270581`
 

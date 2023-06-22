@@ -4,10 +4,9 @@ let temperatureInput= document.querySelector("#temperature");
 let windspeedInput= document.querySelector("#windspeed");
 let windchilloutput = document.querySelector("#windchill");
 
-temperatureInput.textContent= 5;
-windspeedInput.textContent=5;
 
-console.log(temperatureInput);
+
+console.log(windspeedInput);
 
 function calculateWindChill(temperature, windspeed){
     let f=0
@@ -23,23 +22,56 @@ return f
 }
 
 
-windchilloutput.textContent=calculateWindChill(temperatureInput.textContent,windspeedInput.textContent);
 
-// temperatureInput.addEventListener("input", function() {
- 
-//     let temperature=parseFloat(temperatureInput.value) ;
-//     let windspeed= parseFloat(windspeedInput.value);
-//     windchilloutput.innerHTML= calculateWindChill(temperature, windspeed);
 
-// });
+//Weather API
+
+//Check the windchil by choosing a place where the temperature is below 50f such as Norilsk or Barrow;
+let input="Rio de Janeiro";
+const weatherIcon= document.querySelector("#iconTemp");
+const capttion= document.querySelector("figcaption");
+
+
+async function getData(input){
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${input}&units=imperial&appid=6eeb60c2a0b2304607c541b011270581`
+
+    try{
+        const response = await fetch(url);
+        if(response.ok){
+            const data = await response.json();
+            console.log(data);
+            displayResult(data);
+        }
+        else {
+            throw Error(await response.text());
+        }
+    }
+    catch (error){
+        console.log(error)
+    }
   
-// windspeedInput.addEventListener("input", function() {
+    
+}
 
-//     let temperature=parseFloat(temperatureInput.value) ;
-//     let windspeed= parseFloat(windspeedInput.value);
-//     windchilloutput.innerHTML=calculateWindChill(temperature, windspeed);
+function displayResult(data){
+    temperatureInput.innerHTML=`${data.main.temp.toFixed(0)}`
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    windspeedInput.textContent=data.wind.speed;
+    console.log(windspeedInput);
+    const description= data.weather[0].description;
+    const descriptionFormatted =description.split(" ");
+    const part1 = descriptionFormatted[0].charAt(0).toUpperCase() + descriptionFormatted[0].slice(1);
+    
+    const part2 = descriptionFormatted[1].charAt(0).toUpperCase() + descriptionFormatted[1].slice(1);
+    const countryName= data.sys.country;
+    weatherIcon.setAttribute("src", iconsrc);
+    weatherIcon.setAttribute("alt", description)
+    capttion.textContent=`${part1} ${part2}`;
+    //checking
+    // temperatureInput=44;
+    windchilloutput.textContent=calculateWindChill(temperatureInput.innerHTML, windspeedInput.textContent);
 
-// });
 
+}
 
-// windchilloutput.innerHTML=calculateWindChill(temperature,windspeed);
+getData(input);

@@ -713,25 +713,63 @@ main .weather img{
     background: none;
 }
 
+.weather figure{
+    display: flex;
+    justify-content: center;
 
+}
+
+figcaption{
+    text-align: center;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 2px 5px #FFC300;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.weather img{
+
+}
 .weather h2{
     text-align: center;
+    text-shadow: 2px 2px 5px #FFC300;
 }
 .weather p{
     text-align: center;
 }
 
 .weather img{
-    position: relative;
+    /* position: relative; */
     left: 40%;
     margin: 0;
-    padding: 0;
-    width: 50px !important;
-    height: 50px !important;
-} 
+    width: 80px !important;
+    height: 80px !important;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-left: 50px;
+    border: 2px solid #14213D;
+    box-shadow: 0px 0px 3px #FFC300, 0px 2px 4px #ffffff;
+    
+}
+.divider{
+    /* border-bottom: 2px solid #ffffff; */
+    align-self: self-end;
+    margin-left: 20px;
+    margin: 20px;
+    
+}
 
 main{
     /* background: linear-gradient(to top, #ffffff 10% , #302f2f 50% ,#ffffff 100%); */
+}
+
+footer p a{
+    color: #FFC300;
+}
+#weathername{
+
 }
 
 
