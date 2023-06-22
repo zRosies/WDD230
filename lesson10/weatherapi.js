@@ -33,6 +33,7 @@ async function getData(input){
     catch (error){
         console.log(error)
     }
+  
     
 }
 
@@ -61,7 +62,7 @@ input = document.querySelector("#city");
 
 input.addEventListener("input", function(){
     place.textContent=input.value;
-    let city=`${input.value}`
+    let city=`${input.value}`;
     console.log(city);
     getData(city);
     const country= input.text;
