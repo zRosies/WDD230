@@ -6,10 +6,9 @@ header{
 }
 
 .cards{
-    margin-top: 20px;
-    
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cards p{
@@ -51,6 +50,8 @@ footer{
     .cards{
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
+      
 
     }
 
