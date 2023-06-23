@@ -714,12 +714,12 @@ main .weather img{
 }
 
 .weather figure{
-    display: flex;
     justify-content: center;
 
 }
 
 figcaption{
+    display: block;
     text-align: center;
     border: 2px solid #ffffff;
     box-shadow: 0px 2px 5px #FFC300;
@@ -753,23 +753,34 @@ figcaption{
     box-shadow: 0px 0px 3px #FFC300, 0px 2px 4px #ffffff;
     
 }
+
+figure{
+
+}
+
+figure img{
+    display: block;
+    margin: 0 auto;
+    
+}
 .divider{
     /* border-bottom: 2px solid #ffffff; */
-    align-self: self-end;
     margin-left: 20px;
-    margin: 20px;
-    
+    margin: 20px;  
 }
 
 main{
     /* background: linear-gradient(to top, #ffffff 10% , #302f2f 50% ,#ffffff 100%); */
 }
 
+#iconTemp{
+    display: block;
+    margin: 0 auto;
+}
+
 footer p a{
     color: #FFC300;
 }
-#weathername{
 
-}
 
 
