@@ -445,7 +445,6 @@ main .events .event h2{
     text-shadow: 1px 1px 2px #000000;
 }
 main .events .event h3{
-    margin-top: 40px;
     font-size: 1.2em;
     color: #FFC300;
 }
@@ -482,29 +481,27 @@ main .aside .sp3{
     background: rgba(49, 48, 48, 0.7);
 }
 
-main .aside .sp1 h3{
-    position: absolute;
-    background: rgba(49, 48, 48, 0.7);
-    color: #ffffff;
-    font-size: 1em;
-    width: 100%;
-    left: 0%;
-    top:-6%;
-    padding: 10px;
-    text-align: center;
-    z-index: 5;
-}
+
 main .aside .sp1 .sp1p{
     position: absolute;
     background: rgba(49, 48, 48, 0.7);
+    display: flex;
+    flex-direction: column;
     color: #ffffff;
     font-size: 1em;
     width: 100%;
     left: 0%;
-    top: 80%;
-    padding-bottom: 80px;
+    top: 73%;
+    /* padding-bottom: 80px; */
     text-align: center;
     z-index: 5;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.aside h3{
+    margin: 0 !important;
+    margin-bottom: 100px;
+    margin-top: 20px !important;
 }
 main .aside .sp1 .sp1p2{
     text-decoration: underline;
@@ -518,13 +515,14 @@ main .aside .sp1 .sp1p2{
     z-index: 5;
 }
 
-main .aside .sp1 .contact{
+main .aside .sp1p{
     display: flex;
     position: absolute;
     top: 100%;
     left: 50%;
     background: rgba(0,0,0,0.7);
     z-index: 20;
+    border-top: 5px solid #ffffff;
 
 }
 main .aside .sp1 img{
@@ -555,17 +553,12 @@ main .aside .sp3 img{
     object-fit: cover;
 
 }
-main .aside .sp2 h3{
-    position: absolute;
-    background: rgba(49, 48, 48, 0.7);
-    color: #ffffff;
-    font-size: 1em;
-    width: 100%;
-    left: 0%;
-    top: -6%;
-    padding: 10px;
-    text-align: center;
-    z-index: 5
+main .aside .sp2p{
+  border-top: 5px solid #4688e5;
+}
+
+main .aside .sp3p p, main .aside .sp2p p {
+    font-size: .9em;
 }
 main .aside .sp2 .sp2p{
     position: absolute;
@@ -574,9 +567,10 @@ main .aside .sp2 .sp2p{
     width: 100%;
     left: 0%;
     top: 75%;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
     text-align: center;
-    z-index: 5
+    z-index: 5;
+    padding-bottom: 50px;
 
 }
 main .aside .sp2 .sp2p2{
@@ -589,31 +583,27 @@ main .aside .sp2 .sp2p2{
     text-align: center;
     z-index: 5
 }
-main .aside .sp3 h3{
-    position: absolute;
-    background: rgba(49, 48, 48, 0.7);
-    color: #ffffff;
-    font-size: 1em;
-    width: 100%;
-    left: 0%;
-    top: -6%;
-    padding: 15px;
-    text-align: center;
-    z-index: 5
 
-}
 main .aside .sp3 .sp3p{
     position: absolute;
-    background: rgba(49, 48, 48, 0.7);
+    background: rgba(0,0,0,0.7);
     color: #ffffff;
     width: 100%;
     left: 0%;
     top: 75%;
     padding-bottom: 100px;
     text-align: center;
-    z-index: 5
+    z-index: 5;
+
+    border-top: 5px solid #1f7b25 !important;
+    
+   
+    
+
 
 }
+
+
 main .aside .sp3 .sp3p2{
     text-decoration: underline;
     position: absolute;
@@ -660,14 +650,8 @@ main .aside .sp2{
 }
 
 main .aside .sp1 p{
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    z-index: 2;
-    bottom: 60%;
-    background: rgba(0,0,0,0.7);
-    color:#ffffff ;
-    
+    /* color: #ffffff; */
+    font-size: 0.8em;
 
 }
 

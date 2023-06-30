@@ -1,0 +1,130 @@
+@media screen and (min-width: 668px) and (max-width:1200px) {
+    body{
+        margin: 0 auto;
+        width: 100%;
+    }
+    header{
+        padding: 0;
+        padding-bottom: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .navigation{
+        display: none;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    #ham{
+        align-self: center;
+        background-color: #000000;
+        justify-content: center;
+        font-size: 2em;
+        display: flex;
+        height: 50px;
+        width: 60px; 
+        color: #ffffff;
+        border: none;
+
+    }
+   
+
+    header .elements img{
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+    header .elements{
+        margin-top: 10px;
+    }
+    .navigation2.responsive a{
+        display: block;
+        box-sizing: border-box;
+    }
+    .responsive a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding: 10px;
+        box-shadow: 1px 1px 7px #FFC300;
+        border-top: .5px solid #ffffff;
+        
+    }
+ 
+
+    .navigation2.responsive{
+        display: block;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 10px;
+        transition: .5s ease-in-out;
+        width: 100%;
+        margin-bottom: 20px;
+
+        
+    }
+    .responsive a:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    nav .navigation a{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .test{
+        margin-right: 0;
+        display: block;
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+    footer .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .placeholder{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+  
+    section div{
+        flex-direction: column !important;
+        
+    }
+    section div p{
+        padding: 0;
+        margin: 20px;
+        padding: 20px !important;
+    }
+    section img{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+   
+
+    section div img:hover{
+        transform: none;
+    }
+    form{
+        margin: 0;
+        margin-right: 50px;
+        
+    }
+    table{
+        margin-bottom: 100px;
+    }
+    .membership{
+        display: grid;
+        grid-template-columns: 250px 250px;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+

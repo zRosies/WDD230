@@ -173,7 +173,7 @@
         height: 12em;
         
     }
-    main .aside .sp2{
+    /* main .aside .sp2{
         
         position: relative;
         padding:0;
@@ -185,7 +185,7 @@
         
         height: 12em;
         
-    }
+    } */
     main .aside{
         background: linear-gradient(to right, #000000 35% , #FFC300  90%);
     }
@@ -209,13 +209,36 @@
         top: 20%;
         left: 35%;
     }
-    main .aside .sp2 .sp2p{
-        top: 70%;
+    .sp2{
+        position: relative;
     }
-    main .aside .sp2 .sp2p2{
-   
-        top: 80%;
-      
+    main .aside .sp1 .sp1p{
+        position: absolute;
+        top: 68%;
+        left: 0% !important;
+        width: 100%;
+        padding: 0;
+        margin: 0 !important;
+    
+    }
+
+    main .aside .sp2 .sp2p{
+        position: absolute;
+        top: 67%;
+        left: 0% !important;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    main .aside .sp2 .sp2p h3, main .aside .sp1 .sp1p h3{
+        font-size: .9em;
+        display: block;
+    }
+
+    .aside h3{
+        margin: 0 !important;
+        
     }
 
 
