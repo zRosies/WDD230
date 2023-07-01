@@ -203,22 +203,30 @@
     }
 
     .cards.list{
-        margin: 10px;
-        width: 85%;
+        margin: 0;
+        /* width: 100%; */
     }
-    .cards.list section{ 
+    /* .cards.list section{ 
         display: flex;
         flex-direction: column;
-        width: 100%;
+         width: 100%; 
         margin: 0;
-        padding: 20px;
+        padding: 20px; 
         margin-bottom: 10px;
-    }
+    } */
     .cards.list h1{
         margin: 0 auto;
         display: flex;
         text-align: center;
         justify-self: center;
+        font-size: 1.3em;
+    }
+    .cards.list section{
+        width: 80%;
+    }
+
+    .cards.list{
+
     }
     h1{
         font-size: 2em;

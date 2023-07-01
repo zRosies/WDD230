@@ -259,4 +259,12 @@
         margin: 0 !important;
         
     }
+    .weather figure{
+        padding: 20px;
+        margin: 0 !important;
+    }
+    figcaption{
+        /* padding: 20px; */
+
+    }
 }
