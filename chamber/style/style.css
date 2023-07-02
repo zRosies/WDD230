@@ -718,6 +718,10 @@ figcaption{
     margin: 20px;
 }
 
+.images{
+    align-self: center;
+}
+
 .weather img{
 
 }
