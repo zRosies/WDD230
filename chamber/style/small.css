@@ -267,4 +267,8 @@
         /* padding: 20px; */
 
     }
+    .hero img{
+        margin: 100px;
+        padding: 100px;
+    }
 }

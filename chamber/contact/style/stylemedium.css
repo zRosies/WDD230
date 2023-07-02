@@ -126,5 +126,29 @@
     .cards{
         grid-template-columns: repeat(2, 2fr);
     }
+    .division{
+        margin: 0 auto;
+        justify-content: center;
+        justify-items: center;
+        flex-direction: column;
+        /* width: 30%; */
+    
+    }
+    .wrapper {
+        
+        width: 60%;
+    }
+    
+    .wrapper form{
+        margin: 0 auto !important;
+        width: 100%;
+        margin-left: 130px !important;
+      
+    }
+    .contact{
+        width: 0 !important;
+        width: 70% !important;
+        margin-left: 125px;
+    }
 }
 
