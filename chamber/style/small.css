@@ -156,7 +156,7 @@
         margin: 0;
 
     }
-    main .hero button{
+    main .hero .button{
         left: 30%;
     }
     .hero{
@@ -235,7 +235,7 @@
     main .nrsmall p{
         color: white;
     }
-    main .aa button{
+    main .aa .button{
         margin-top: 10px;
     }
 

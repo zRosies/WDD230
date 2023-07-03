@@ -182,9 +182,15 @@
         display: none;
     }
     form{
-        margin: 0;
-        width: 90%;
+        margin: 0 auto;
         
+        width: 75%;
+        margin: 25px;
+        margin-bottom: 100px;
+        
+    }
+    table{
+        margin: 0 !important;
     }
     h1{
         align-self: flex-start;
