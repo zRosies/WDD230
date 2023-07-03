@@ -163,10 +163,15 @@
         height: 300px !important;
 
     }
+    header h1{
+        text-align: start;
+        font-size: 1em;
+    }
     section div{
         margin: 0;
         margin-bottom: 10px;
         margin-top: 20px;
+        padding: 0 !important;
     }
     img:hover{
         transform: none !important;
