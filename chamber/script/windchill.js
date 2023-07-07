@@ -57,7 +57,7 @@ function displayResult(data){
     temperatureInput.innerHTML=`${data.main.temp.toFixed(0)}`
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     windspeedInput.textContent=data.wind.speed;
-    console.log(windspeedInput);
+    // console.log(windspeedInput);
     const description= data.weather[0].description;
     const descriptionFormatted =description.split(" ");
     const part1 = descriptionFormatted[0].charAt(0).toUpperCase() + descriptionFormatted[0].slice(1);
