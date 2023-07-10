@@ -127,6 +127,64 @@ header a{
 .test{
     display: none;
 }
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #316548;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+
+form #options{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#options select{
+    margin-bottom: 10px;
+}
+
+.divider{
+    display: flex;
+    justify-content: space-between;
+}
+
+form label{
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+textarea{
+    width: 100%;
+    column-span: none;
+   resize: none;
+}
+
+form input{
+    width: 100%;
+}
+
+form label{
+    width: 100%;
+}
+
+.nutri{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
 footer{
     color: #fff;
     padding: 20px;

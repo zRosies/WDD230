@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/stylemed.css">
+    <link rel="stylesheet" href="styles/stylesmall.css">
+</head>
+<body>
+    <header>
+        <div class="test">
+            <picture>
+                <source srcset="images/logo.webp" type="image/webp">
+                <img src="images/logo.png" alt="logo">
+            </picture>
+            <div class="social">
+                <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                
+            </div> 
+            <i id="shop" class="fa-solid fa-cart-shopping"></i>    
+            <i class="fa-solid fa-bars" id="ham"></i>
+        </div>
+        <picture class="img">
+            <source srcset="images/logo.webp" type="image/webp">
+            <img src="images/logo.png" alt="logo">
+        </picture>
+      
+        <nav class=".navigation">
+            <a href="../index.html">Home</a>
+            <a href="../fresh/fresh.html" class="active">Fresh</a>
+            <a href="../aboutus/about.html">About Us</a>
+        </nav>
+        <div class="social2">
+            <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            
+        </div> 
+        <i id="shop2" class="fa-solid fa-cart-shopping"></i>    
+      
+   
+       
+    </header>
+    <main>
+        <form action="submit" method="post">
+            <label for="name">Name: 
+                <input id="name" type="text" required>
+            </label>
+            <label for="email">Email:
+                <input type="text" id="email" required>
+            </label>
+            <label for="number">Number:
+                <input type="tel" id="number" required>
+            </label>
+            <label for="userchoices1" id="options">Select 3 Fruits:
+                <select name="userchoices" id="userchoices1">
+                    <option value="" id="op1" disabled selected></option>
+                </select>
+                <select name="userchoices" id="userchoices2">
+                    <option value="" id="op2" disabled selected></option>
+                </select>
+                <select name="userchoices" id="userchoices3">
+                    <option value=""  id="op3"disabled selected></option>
+                </select>
+            </label>
+            <label for="instruction">Add special instructions:
+                <textarea name="" id="instruction" cols="30" rows="10">
+
+                </textarea>
+            </label>
+
+            <div class="divider">
+                <input type="reset">
+                <input type="submit" value="Order">
+            </div>
+            
+        </form>
+        <div class="information">
+            <p>Name: <span id="namef"></span></p>
+            <p>Email: <span id="emailf"></span></p>
+            <p>Phone: <span id="phonef"></span></p>
+            <p>Order date: <span id="date"></span></p>
+            <p>Fruits: <span id="fruit1"></span><span id="fruit2"></span><span id="fruit3"></span></p>
+            <p>instruction: <span id="instructionf"></span></p>
+            
+            <p>Nutritional information: <span id="nutrif"></span></p>
+            <div class="nutri">
+                
+                <p>carbohydrates: <span id="carb"></span></p>
+                <p>protein: <span id="protein"></span></p>
+                <p>fat: <span id="fat"></span></p>
+                <p>sugar: <span id="sugar"></span></p>
+                <p>calories: <span id="calories"></span></p>
+            </div>
+            
+            
+        </div>
+
+    </main>
+    <footer>
+        <p>Gustavo Bispo| All rights reserved &copy; <span id="year"></span> | Last Modified: <span id="last"></span> |</p>
+        <p>Data provided by: <a href="">OpenWeather</a></p>
+    </footer>
+    <script src="https://kit.fontawesome.com/7393b3984f.js" crossorigin="anonymous"></script>
+    <script src= "script/lastmod.js"></script>
+    <script src="script/fresh.js"></script>
+</body>
+</html>
