@@ -11,13 +11,14 @@ body{
 header{
     position: sticky;
     background: #fff;
-    top: 0;
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
     margin: 0;
     z-index: 5;
+    top: 0;
+    padding: 10px;
 }
 
 header picture img{
@@ -36,7 +37,7 @@ nav{
     justify-content: center;
     align-items: center;
     align-self: center;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 
 }
@@ -51,7 +52,18 @@ nav a{
     margin: 0;
     text-align: center;
     padding: 20px;
+    flex-wrap: wrap;
     
+}
+
+.test{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#ham{
+    display: none;
 }
 
 nav a:hover{
@@ -63,14 +75,16 @@ header a{
     justify-content: space-between;
     padding: 20px; */
 }
+
 .active{
     background: #e9e9e6;
 }
 .social{
     display: flex;
     margin-right: 200px;
-    align-self: center;
     color: #316548 !important;
+    align-self: center;
+    justify-self: flex-end;
 }
 .social a{
     text-decoration: none;
@@ -81,6 +95,58 @@ header a{
 .social a:hover{
     color: #b6a810;
     transform: scale(1.1);
+}
+
+.social2{
+    display: flex;
+    margin-right: 200px;
+    color: #316548 !important;
+    align-self: center;
+    justify-self: flex-end;
+}
+.social2 a{
+    text-decoration: none;
+    color: #316548;
+    font-size: 1.4em;
+    margin-right: 20px;
+}
+.social2 a:hover{
+    color: #b6a810;
+    transform: scale(1.1);
+}
+
+#shop{
+    color: #316548;
+    align-self: center;
+    margin-right: 50px;
+    font-size: 1.2em;
+}
+
+#shop2{
+    color: #316548;
+    align-self: center;
+    margin-right: 50px;
+    font-size: 1.2em;
+}
+
+
+#shop2:hover{
+    cursor: pointer;
+    color: #b6a810;
+    transform: scale(1.1);
+}
+
+.hero{
+    position: relative;
+    max-width: 1920px;
+}
+.hero img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.test{
+    display: none;
 }
 
 h2{
@@ -94,6 +160,11 @@ h2{
     border: 2px solid #316548;
     margin: 200px;
     padding: 20px;
+}
+
+.info h1{
+    font-family: "kalam";
+    text-align: center;
 }
 
 
@@ -118,7 +189,7 @@ h2{
 .picture:hover .middle {
     opacity: 1;
     width: 390px;
-  }
+}
 
 .middle {
     transition: .5s ease;
@@ -132,6 +203,7 @@ h2{
     box-shadow: 3px 5px #316548;
     color: white;
     overflow: hidden;
+    left: 0%;
 }
 
 .middle h5{
@@ -140,7 +212,9 @@ h2{
 }
 .picture{
     overflow: hidden;
+    position: relative;
 }
+
 
 
   

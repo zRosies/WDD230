@@ -5,24 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/stylemed.css">
+    <link rel="stylesheet" href="styles/stylesmall.css">
 </head>
 <body>
     <header>
-        <picture>
+        <div class="test">
+            <picture>
+                <source srcset="images/logo.webp" type="image/webp">
+                <img src="images/logo.png" alt="logo">
+            </picture>
+            <div class="social">
+                <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                
+            </div> 
+                
+            <i class="fa-solid fa-bars" id="ham"></i>
+        </div>
+        <picture class="img">
             <source srcset="images/logo.webp" type="image/webp">
             <img src="images/logo.png" alt="logo">
         </picture>
-        <nav>
+      
+        <nav class=".navigation">
             <a href="../index.html">Home</a>
             <a href="../fresh/fresh.html">Fresh</a>
-            <a href="about.html" class="active">About Us</a>
+            <a href="../aboutus/about.html" class="active">About Us</a>
         </nav>
-        <div class="social">
+        <div class="social2">
             <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
             <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
             <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
-
-        </div>
+            
+        </div> 
+  
+      
+   
+       
     </header>
     <main>
         
@@ -54,6 +75,7 @@
 
         </div>
         <div class="info">
+            <h1>About</h1>
             <p>Bountiful Foods, a small business based in Carlsbad, California, has a historical commitment to offering fresh, locally grown organic foods. Alongside their physical storefront, they operate food trucks that serve the coastal area from Los Angeles to San Diego. By sourcing fruits and produce directly from local farmers as well as national and international suppliers, they provide a diverse range of high-quality ingredients. With a focus on convenience, Bountiful Foods caters to walk-in customers and manages orders through phone and their website. Their mission revolves around promoting healthy eating options, including made-to-order fruit drinks and fruit bags, to both the local community and coastal tourists, emphasizing their dedication to organic bounty and well-being.</p>
         </div>
         
@@ -64,7 +86,6 @@
         <p>Gustavo Bispo| All rights reserved &copy; <span id="year"></span> | Last Modified: <span id="last"></span> |</p>
         <p>Data provided by: <a href="">OpenWeather</a></p>
     </footer>
-    <script src="script/weather.js"></script>
     <script src="https://kit.fontawesome.com/7393b3984f.js" crossorigin="anonymous"></script>
     <script src= "script/lastmod.js"></script>
 </body>

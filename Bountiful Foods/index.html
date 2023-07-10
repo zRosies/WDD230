@@ -6,25 +6,46 @@
     <title>Bountiful Foods</title>
     <meta name="description" content="Discover a refreshing world of fruits and juices at our website. Indulge in the vibrant flavors of nature's finest produce. From juicy oranges to succulent berries, we offer a wide range of fresh and delicious fruits. Explore our collection of invigorating juices, made from hand-picked fruits bursting with nutrients and taste. Experience the essence of pure and natural goodness in every sip. Join us on a delightful journey of flavors and health. Order your favorite fruits and juices today and awaken your senses.">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/stylemedium.css">
+    <link rel="stylesheet" href="styles/stylesmall.css">
 </head>
 <body>
     <header>
-        <picture>
+        <div class="test">
+            <picture>
+                <source srcset="images/logo.webp" type="image/webp">
+                <img src="images/logo.png" alt="logo">
+            </picture>
+            <div class="social">
+                <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                
+            </div> 
+            <i id="shop" class="fa-solid fa-cart-shopping"></i>    
+                
+            <i class="fa-solid fa-bars" id="ham"></i>
+        </div>
+        <picture class="img">
             <source srcset="images/logo.webp" type="image/webp">
             <img src="images/logo.png" alt="logo">
         </picture>
-        <nav>
+      
+        <nav class=".navigation">
             <a href="index.html" class="active">Home</a>
             <a href="../Bountiful Foods/fresh/fresh.html">Fresh</a>
             <a href="../Bountiful Foods/aboutus/about.html">About Us</a>
         </nav>
-        <div class="social">
+        
+        <div class="social2">
             <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
             <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
             <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
-
-        </div>
-        <i id="shop" class="fa-solid fa-cart-shopping"></i>
+        </div> 
+        <i id="shop2" class="fa-solid fa-cart-shopping"></i>    
+      
+   
+       
     </header>
     <main>
     
@@ -113,13 +134,18 @@
         <h2>Our gallery</h2>
         <div class="fruits">
             
-            <img src="images/fruits/pexels-wahid-hacene-975231.jpg" data-src="images/fruits/pexels-wahid-hacene-975231.jpg" alt="test" width="400" height="400">
-            <img src="images/fruits/pexels-tiana-2987077.jpg" data-src="images/fruits/pexels-tiana-2987077.jpg" alt="straw" width="400" height="400">
-            <img src="images/fruits/pexels-pixabay-70746.jpg" data-src="images/fruits/pexels-pixabay-70746.jpg" alt="berry" width="400" height="400">
-            <img src="images/fruits/pexels-jessica-lewis-creative-726024.jpg" data-src="images/fruits/pexels-jessica-lewis-creative-726024.jpg" alt="straw" width="400" height="400">
-            <img src="images/fruits/orange.jpg" data-src="images/fruits/orange.jpg" alt="orange" width="400" height="400" >
-            <img src="images/fruits/fruits.jpg" data-src="images/fruits/fruits.jpg" alt="fruits" width="400" height="400" >
+            <img class="mypic" src="images/fruits/pexels-wahid-hacene-975231.jpg" data-src="images/fruits/pexels-wahid-hacene-975231.jpg" alt="test" width="400" height="400">
+            <img class="mypic" src="images/fruits/pexels-tiana-2987077.jpg" data-src="images/fruits/pexels-tiana-2987077.jpg" alt="straw" width="400" height="400">
+            <img class="mypic" src="images/fruits/pexels-pixabay-70746.jpg" data-src="images/fruits/pexels-pixabay-70746.jpg" alt="berry" width="400" height="400">
+            <img class="mypic" src="images/fruits/pexels-jessica-lewis-creative-726024.jpg" data-src="images/fruits/pexels-jessica-lewis-creative-726024.jpg" alt="straw" width="400" height="400">
+            <img class="mypic" src="images/fruits/orange.jpg" data-src="images/fruits/orange.jpg" alt="orange" width="400" height="400" >
+            <img class="mypic" src="images/fruits/fruits.jpg" data-src="images/fruits/fruits.jpg" alt="fruits" width="400" height="400" >
+            <div class="buttons">
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
         </div>
+      
         
     </main>
     <footer>

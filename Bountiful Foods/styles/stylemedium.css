@@ -1,0 +1,72 @@
+@media screen and (min-width: 667px) and (max-width:1080px) {
+    nav{
+        display: none;
+    }
+    .social{
+        /* flex-direction: column; */
+        margin: 0;
+    }
+    #shop{
+        margin: 0;
+        margin-left: 1em;
+    }
+    .test{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav a{
+        text-align: center;
+        justify-content: center;
+        justify-self: center;
+    }
+    nav.open{
+        display: flex;
+        /* width: 100%; */
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-self: center;
+        
+    }
+
+    header{
+        display: block;
+    }
+    /* .test{
+        display: block;
+    } */
+
+    nav.open a{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+    #ham{
+        display: flex;
+        align-self: center;
+        font-size: 1.5em;
+        margin-right: 2em;
+    }
+    .hero h1{
+        /* margin-top: 100px; */
+        /* font-size: 1em; */
+    }
+    .divider .border{
+        margin: 10px;
+        font-size: 1.3em;
+    }
+    .weather{
+        width: 90%;
+    }
+    .relative a{
+        font-size: 1em;
+    }
+    .relative p{
+        font-size: 2.2em;
+    }
+    #shop2,.img, .social2{
+        display: none;
+    }
+    
+}

@@ -9,14 +9,16 @@ body{
     margin: 0;
 }
 header{
-    position: fixed;
+    position: sticky;
     background: #fff;
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
     margin: 0;
     z-index: 5;
+    top: 0;
+    padding: 10px;
 }
 
 header picture img{
@@ -24,18 +26,17 @@ header picture img{
     height: 70px;
     margin: 0;
     padding: 0;
-   margin: 10px;
-   box-shadow: 2px 2px 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px;
 }
 
 nav{
     display: flex;
     align-items: center;
-    /* margin-right: 500px; */
     justify-content: center;
     align-items: center;
     align-self: center;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 
 }
@@ -50,7 +51,18 @@ nav a{
     margin: 0;
     text-align: center;
     padding: 20px;
+    flex-wrap: wrap;
     
+}
+
+.test{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#ham{
+    display: none;
 }
 
 nav a:hover{
@@ -69,8 +81,9 @@ header a{
 .social{
     display: flex;
     margin-right: 200px;
-    align-self: center;
     color: #316548 !important;
+    align-self: center;
+    justify-self: flex-end;
 }
 .social a{
     text-decoration: none;
@@ -82,6 +95,39 @@ header a{
     color: #b6a810;
     transform: scale(1.1);
 }
+
+.social2{
+    display: flex;
+    margin-right: 200px;
+    color: #316548 !important;
+    align-self: center;
+    justify-self: flex-end;
+}
+.social2 a{
+    text-decoration: none;
+    color: #316548;
+    font-size: 1.4em;
+    margin-right: 20px;
+}
+.social2 a:hover{
+    color: #b6a810;
+    transform: scale(1.1);
+}
+
+#shop2{
+    color: #316548;
+    align-self: center;
+    margin-right: 50px;
+    font-size: 1.2em;
+}
+
+
+#shop2:hover{
+    cursor: pointer;
+    color: #b6a810;
+    transform: scale(1.1);
+}
+
 .hero{
     position: relative;
     max-width: 1920px;
@@ -116,6 +162,7 @@ header a{
     color: #fff;
     font-weight: 900;
     font-size: 1.3em;
+    box-shadow: 2px 2px 5px #000;
 
 }
 .relative a:hover{
@@ -169,6 +216,7 @@ header a{
     background-clip: padding-box; 
     font-size: 2em;
     margin-top: 100px;
+
 }
 
 #shop{
@@ -195,6 +243,9 @@ header a{
     margin: 0 auto;
     margin-top: 100px;
     box-shadow: 2px 4px 10px;
+}
+.test{
+    display: none;
 }
 #iconTemp,#iconTemp2, #iconTemp3 {
     display: flex;
@@ -291,16 +342,21 @@ header a{
     margin: 20px;
     border: 2px solid #316548;
     height: 400px;
+    
+}
+.weather{
+    margin: 100px auto;
+    width: 60%;
 }
 .cover{
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: -4;
+    /* overflow: hidden; */
 }
 .box{
-    
     margin: 5px;
     color: #fff;
     /* background: #4C956C; */
@@ -334,6 +390,10 @@ header a{
    transform: scale(1.1);
    transition: .5s ease-in-out;
 
+}
+
+.buttons{
+    display: none;
 }
 
 h2{

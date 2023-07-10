@@ -17,8 +17,38 @@ let opn = { weekday:"long", day:"numeric", month:"long", year:"numeric"};
 const formdate= new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	date
 );
-document.querySelector("#datetime").textContent=formdate;
 
-const hamButton = document.querySelector('#ham');
-const navigation = document.querySelector('.navigation2');
-const closea = document.querySelector("#close");
+function toggleMenu(){
+	document.querySelector("nav").classList.toggle("open");
+	// let navigation = document.querySelector("nav")
+    // navigation.classList.toggle("open");
+	console.log("AAA")
+}
+
+const button = document.querySelector('#ham')
+
+button.onclick= toggleMenu;
+
+
+//'Image observer'
+
+const pictures = document.querySelectorAll(".picture");
+
+function applyEffectsOnScroll() {
+  const windowWidth = window.innerWidth;
+  const windowHeight = window.innerHeight;
+
+  if (windowWidth < 880) { 
+    pictures.forEach(picture => {
+      const pictureTop = picture.getBoundingClientRect().top;
+
+      if (pictureTop < windowHeight * 0.5) {
+        picture.querySelector("img").style.filter = "grayscale(0%)";
+        picture.querySelector(".middle").style.opacity = 1;
+        picture.querySelector(".middle").style.width = "300px";
+      }
+    });
+  }
+}
+
+window.addEventListener("scroll", applyEffectsOnScroll);
