@@ -130,6 +130,10 @@
     .fruits{
         position: relative;
         padding: 20px;
+        
+    }
+    .mypic{
+        width: 100%;
     }
     .buttons{
         position: absolute;

@@ -215,7 +215,25 @@ h2{
     position: relative;
 }
 
+.location
+{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    padding: 40px;
+    border: 5px solid #316548;
+    margin: 20px;
+}
 
+.location h1{
+    font-family: "kalam";
+text-align: center;}
+
+.location iframe{
+    justify-self: center;
+    width: 100%;
+    
+}
 
   
 
