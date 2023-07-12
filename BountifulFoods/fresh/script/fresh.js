@@ -45,8 +45,11 @@ const nameb= document.querySelector("#nameb")
 
 
 let submissionCount= localStorage.getItem("submissionCount");
-submissionCount=0;
-submissionCount = parseInt(submissionCount);
+if (!submissionCount) {
+    submissionCount = 0;
+  } else {
+    submissionCount = parseInt(submissionCount);
+}
 
 const getDatep= new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	date
@@ -74,10 +77,9 @@ form.addEventListener("submit",function(event){
     intructionSpan.textContent= instruction.value;
     DateSpan.textContent=getDatep;
 
+    Calculation()
     submissionCount++;
     localStorage.setItem('submissionCount', submissionCount.toString());
-
-    Calculation()
 
     form.reset();
     form.style.display="none";
