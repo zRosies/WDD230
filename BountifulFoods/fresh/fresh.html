@@ -42,59 +42,69 @@
         </div> 
         <i id="shop2" class="fa-solid fa-cart-shopping"></i>    
       
-   
        
     </header>
     <main>
-        <form action="submit" method="post">
-            <label for="name">Name: 
-                <input id="name" type="text" required>
-            </label>
-            <label for="email">Email:
-                <input type="text" id="email" required>
-            </label>
-            <label for="number">Number:
-                <input type="tel" id="number" required>
-            </label>
-            <label for="userchoices1" id="options">Select 3 Fruits:
-                <select name="userchoices" id="userchoices1">
-                    <option value="" id="op1" disabled selected></option>
-                </select>
-                <select name="userchoices" id="userchoices2">
-                    <option value="" id="op2" disabled selected></option>
-                </select>
-                <select name="userchoices" id="userchoices3">
-                    <option value=""  id="op3"disabled selected></option>
-                </select>
-            </label>
-            <label for="instruction">Add special instructions:
-                <textarea name="" id="instruction" cols="30" rows="10">
+        <div class="fruta">
+            <img src="images/pexels-feyza-simsek-16933506.jpg" alt="">
+        </div>
+   
+        <div class="both">
+          
+            <form action="submit" method="post">
+                <label for="name">Name: 
+                    <input id="name" type="text" required>
+                </label>
+                <label for="email">Email:
+                    <input type="text" id="email" required>
+                </label>
+                <label for="number">Cellphone:
+                    <input type="tel" id="number" required>
+                </label>
+                <label for="userchoices1" id="options">Select 3 Fruits:
+                    <select name="userchoices" id="userchoices1">
+                        <option value="" id="op1" disabled selected></option>
+                    </select>
+                    <select name="userchoices" id="userchoices2">
+                        <option value="" id="op2" disabled selected></option>
+                    </select>
+                    <select name="userchoices" id="userchoices3">
+                        <option value=""  id="op3"disabled selected></option>
+                    </select>
+                </label>
+                <label for="instruction">Add special instructions:
+                    <textarea name="instruction" id="instruction" cols="30" rows="10">
 
-                </textarea>
-            </label>
+                    </textarea>
+                </label>
 
-            <div class="divider">
-                <input type="reset">
-                <input type="submit" value="Order">
-            </div>
+                <div class="divider">
+                    <input id="res" type="reset" value="Clear">
+                    <input id ="aa" type="submit" value="Order">
+                </div>
+                
+            </form>
             
-        </form>
+        </div>
         <div class="information">
-            <p>Name: <span id="namef"></span></p>
+
+            <h1>Order info</h1>
+            <p>Dear <span id="namef"></span>, your order has been recorded. Your juice is being prepared!</p>
+            <p>Name: <span id="nameb"></span></p>
             <p>Email: <span id="emailf"></span></p>
             <p>Phone: <span id="phonef"></span></p>
             <p>Order date: <span id="date"></span></p>
-            <p>Fruits: <span id="fruit1"></span><span id="fruit2"></span><span id="fruit3"></span></p>
+            <p>Fruits: <span id="fruit1"></span> | <span id="fruit2"></span> | <span id="fruit3"></span></p>
             <p>instruction: <span id="instructionf"></span></p>
             
             <p>Nutritional information: <span id="nutrif"></span></p>
             <div class="nutri">
                 
-                <p>carbohydrates: <span id="carb"></span></p>
-                <p>protein: <span id="protein"></span></p>
-                <p>fat: <span id="fat"></span></p>
-                <p>sugar: <span id="sugar"></span></p>
-                <p>calories: <span id="calories"></span></p>
+                <p>Carbohydrates: <span id="carb"></span></p>
+                <p>Protein: <span id="protein"></span></p>
+                <p>Fat: <span id="fat"></span></p>
+                <p>Sugar: <span id="sugar"></span></p>
+                <p>Calories: <span id="calories"></span></p>
             </div>
             
             
