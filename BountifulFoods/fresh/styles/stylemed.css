@@ -68,5 +68,16 @@
     #shop2,.img, .social2{
         display: none;
     }
+    form{
+        left: 20%;
+        width: 60%;
+    }
+
+    .divider{
+        flex-direction: row;
+       
+    }
     
+
+
 }

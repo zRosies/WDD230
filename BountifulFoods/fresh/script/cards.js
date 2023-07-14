@@ -8,7 +8,7 @@ let local= localStorage.getItem("submissionCount");
 
 numOfOrders.textContent=local.toString();
 
-console.log(local)
+// console.log(local)
 
 
 shop.addEventListener("click", ()=>{

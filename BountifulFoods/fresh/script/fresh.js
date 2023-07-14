@@ -41,7 +41,7 @@ const fruit1=document.querySelector("#fruit1");
 const fruit2=document.querySelector("#fruit2");
 const fruit3=document.querySelector("#fruit3");
 const DateSpan=document.querySelector("#date");
-const nameb= document.querySelector("#nameb")
+const nameb= document.querySelector("#nameb");
 
 
 let submissionCount= localStorage.getItem("submissionCount");

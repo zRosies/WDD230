@@ -16,9 +16,9 @@
                 <img src="images/logo.png" alt="logo">
             </picture>
             <div class="social">
-                <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
-                <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                 
             </div> 
             <i id="shop" class="fa-solid fa-cart-shopping"></i>    
@@ -35,9 +35,9 @@
             <a href="../aboutus/about.html">About Us</a>
         </nav>
         <div class="social2">
-            <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
-            <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-            <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
             
         </div> 
         <i id="shop2" class="fa-solid fa-cart-shopping"></i>    
@@ -45,6 +45,11 @@
        
     </header>
     <main>
+        <div class="cards">
+            <i class="fa-solid fa-x" id="test"></i>
+            <h4>Total Number of Juices ordered by you</h4>
+            <span id="order"></span>
+        </div>
         <div class="fruta">
             <img src="images/pexels-feyza-simsek-16933506.jpg" alt="">
         </div>
@@ -62,13 +67,13 @@
                     <input type="tel" id="number" required>
                 </label>
                 <label for="userchoices1" id="options">Select 3 Fruits:
-                    <select name="userchoices" id="userchoices1">
+                    <select name="userchoices" id="userchoices1" required>
                         <option value="" id="op1" disabled selected></option>
                     </select>
-                    <select name="userchoices" id="userchoices2">
+                    <select name="userchoices" id="userchoices2" required>
                         <option value="" id="op2" disabled selected></option>
                     </select>
-                    <select name="userchoices" id="userchoices3">
+                    <select name="userchoices" id="userchoices3" required>
                         <option value=""  id="op3"disabled selected></option>
                     </select>
                 </label>
@@ -113,10 +118,10 @@
     </main>
     <footer>
         <p>Gustavo Bispo| All rights reserved &copy; <span id="year"></span> | Last Modified: <span id="last"></span> |</p>
-        <p>Data provided by: <a href="">OpenWeather</a></p>
     </footer>
     <script src="https://kit.fontawesome.com/7393b3984f.js" crossorigin="anonymous"></script>
     <script src= "script/lastmod.js"></script>
     <script src="script/fresh.js"></script>
+    <script src="script/cards.js"></script>
 </body>
 </html>

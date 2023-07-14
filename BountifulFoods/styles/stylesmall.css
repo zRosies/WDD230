@@ -157,4 +157,17 @@
         border-radius: 20px;
       
     }
+    #shop{
+        margin-right: 10px;
+    }
+    .hero h1{
+        margin: 0;
+        font-size: 1.7em;
+    }
+    .hero p{
+        font-size: 1.1em;
+    }
+    .relative a{
+        padding: 20px;
+    }
 }

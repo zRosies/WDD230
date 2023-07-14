@@ -108,5 +108,34 @@
        display: none;
     
     }
+    #shop{
+        margin-right: 20px;
+        color: #316548;
+    }
 
+    form{
+        left: 10%;
+        width: 75%;
+    }
+    .divider input{
+        margin: 0;
+    }
+    .information{
+        left: 7%;
+        width: 60%;
+    }
+    .nutri{
+        flex-direction: column;
+        justify-content: start;
+    }
+    .nutri p:nth-child(1){
+        /* margin: 0; */
+        margin-right: 20px;
+        text-align: start;
+    }
+
+    .divider{
+        flex-direction: row;
+    }
+ 
 }
