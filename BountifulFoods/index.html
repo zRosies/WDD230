@@ -14,7 +14,7 @@
         <div class="test">
             <picture>
                 <source srcset="images/logo.webp" type="image/webp">
-                <img src="images/logo.png" alt="logo">
+                <img src="images/logo.png" alt="logodff">
             </picture>
             <div class="social">
                 <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -28,7 +28,7 @@
         </div>
         <picture class="img">
             <source srcset="images/logo.webp" type="image/webp">
-            <img src="images/logo.png" alt="logo">
+            <img src="images/logo.png" alt="logodiff">
         </picture>
       
         <nav class=".navigation">
@@ -54,7 +54,14 @@
                 <h4>Total Number of Juices ordered by you</h4>
                 <span id="order"></span>
             </div>
-            <img src="images/pexels-ánh-đặng-16678544.jpg" alt="hero">
+            
+            <picture>
+                <source media="(max-width: 667px )" srcset="images/hero667.jpg">
+                <source media="(max-width: 920px )" srcset="images/hero920.jpg">
+                <source media="(max-width: 1200px )" srcset="images/hero1200.jpg">
+                <img src="images/pexels-ánh-đặng-16678544.jpg" alt="hero">
+            </picture>
+            
             <div class="relative">
                 <h1>Organic Food</h1>
                 <p>Bountiful foods provides local citizens with high-quality organic fruits and juices.</p>
@@ -66,19 +73,19 @@
             <div class="border">
                 <div>
                     <i class="fa-sharp fa-solid fa-leaf"></i>
-                    <p>Natural & Organic</p>
+                    <h4>Natural & Organic</h4>
                 </div>
             </div>
             <div class="border">
                 <div>
                     <i class="fa-regular fa-lemon"></i>
-                    <p>Tasteful fruits</p>
+                    <h4>Tasteful fruits</h4>
                 </div>
             </div>
             <div class="border">
                 <div>
                     <i class="fa-solid fa-sun"></i>
-                    <p>Dedicated Team</p>
+                    <h4>Dedicated Team</h4>
                 </div>
             </div>
            
@@ -145,7 +152,7 @@
             <img class="mypic" src="images/fruits/orange.jpg" data-src="images/fruits/orange.jpg" alt="orange" width="400" height="400" >
             <img class="mypic" src="images/fruits/fruits.jpg" data-src="images/fruits/fruits.jpg" alt="fruits" width="400" height="400" >
             <div class="buttons">
-                <button id="btn"class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button id="btn" class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
                 <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
             </div>
         </div>

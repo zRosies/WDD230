@@ -182,11 +182,11 @@ header a{
     
     /* justify-content: space-between; */
 }
-.border p{
+.border h4{
     color: #fff;
 }
 
-.border p:hover{
+.border h4:hover{
     color: #ffea00;
     transition: .2s ease-in;
 }
