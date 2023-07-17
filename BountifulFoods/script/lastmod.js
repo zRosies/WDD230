@@ -8,6 +8,8 @@ const newdate = new Date();
 const year = newdate.getFullYear();
 const getday= newdate.getDay();
 
+
+
 document.querySelector("#year").textContent=year;
 
 const date = new Date();
@@ -18,12 +20,6 @@ const formdate= new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	date
 );
 
-//navigation
-// document.querySelector("#datetime").textContent=formdate;
-
-// const hamButton = document.querySelector('#ham');
-
-// const closea = document.querySelector("#close");
 
 
 function toggleMenu(){
@@ -36,10 +32,6 @@ function toggleMenu(){
 const button = document.querySelector('#ham')
 
 button.onclick= toggleMenu;
-
-//fruits
-
-//fruits
 
 
 const windowWidth = window.innerWidth;

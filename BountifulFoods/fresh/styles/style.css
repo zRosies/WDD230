@@ -326,7 +326,7 @@ form{
     box-shadow: 2px 2px 10px;
     position: relative;
     position: absolute;
-    top: 10%;
+    top: 0%;
     left: 35%;
     backdrop-filter: blur(20px);
     

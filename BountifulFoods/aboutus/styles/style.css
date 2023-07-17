@@ -161,6 +161,10 @@ h2{
     text-align: center;
 }
 
+.info p{
+    font-size: 1.5em;
+}
+
 
 .owners{
     position: relative;
@@ -217,6 +221,7 @@ h2{
     padding: 40px;
     border: 5px solid #316548;
     margin: 20px;
+    margin-bottom: 100px;
 }
 
 .location h1{

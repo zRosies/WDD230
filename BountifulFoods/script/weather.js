@@ -30,7 +30,25 @@ async function getData(input){
   
     
 }
+
+
+
 //Today's forecast
+date= new Date();
+const days=date.getDay();
+
+let array=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+const today= date.getDay();
+const tomorrow=today+1;
+const afmorrow= tomorrow+1;
+// console.log(today)
+// const tomorrow= 
+// const aftermorrow= document.querySelector("#afmorrow");
+document.querySelector("#today").textContent= array[today];
+document.querySelector("#tomorrow").textContent= array[tomorrow];
+document.querySelector("#afmorrow").textContent=array[afmorrow];
+
+
 function displayResult(data){
     let tomorrow_forecast = data.list[0];
     // temperatureInput.innerHTML=`${data.main.temp.toFixed(0)}`

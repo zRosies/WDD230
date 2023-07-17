@@ -7,11 +7,16 @@ nav .elements h1, nav .elements p{
     font-family: "Playfair Display SC", sans-serif;
 }
 body{
-    max-width: 1920px;
-    width: 100%;
+
     margin: 0 auto;
     box-sizing: border-box;
     
+}
+main{
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
 }
 .elements{
     display: flex;
