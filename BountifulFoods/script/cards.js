@@ -3,8 +3,8 @@ const cards = document.querySelector(".cards")
 const x= document.querySelector("#test");
 const numOfOrders= document.querySelector("#order");
 const shop2 = document.querySelector("#shop2");
-
-let local= localStorage.getItem("submissionCount");
+let local=0;
+local= localStorage.getItem("submissionCount");
 
 numOfOrders.textContent=local.toString();
 
