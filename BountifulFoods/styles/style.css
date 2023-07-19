@@ -149,6 +149,7 @@ header a{
 .relative h1{
     font-family: "Kalam";
     text-shadow: 2px 2px #000;
+    margin-top: 20px;
 }
 .relative h1, .relative p{
     color: white;

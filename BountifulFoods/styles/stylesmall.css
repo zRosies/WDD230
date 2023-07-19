@@ -59,8 +59,9 @@
     #ham{
         display: flex;
         align-self: center;
+        text-align: end;
         font-size: 1.5em;
-        margin-right: 2em;
+        margin-right: .8em;
     }
     .divider {
        display: flex;
@@ -132,6 +133,7 @@
         padding: 20px;
         
     }
+
     .mypic{
         width: 100%;
     }
@@ -169,9 +171,13 @@
     .hero h1{
         margin: 0;
         font-size: 1.7em;
+        top: 20%;
     }
     .hero p{
         font-size: 1.1em;
+    }
+    .relative{
+        bottom: 15%;
     }
     .relative a{
         padding: 20px;
@@ -188,5 +194,8 @@
     }
     .fruits{
         position: relative;
+    }
+    .coastal{
+        margin: 15px;
     }
 }
