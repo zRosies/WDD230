@@ -60,8 +60,9 @@
     #ham{
         display: flex;
         align-self: center;
+        text-align: end;
         font-size: 1.5em;
-        margin-right: 2em;
+        margin-right: .8em;
     }
     .divider {
        display: flex;
