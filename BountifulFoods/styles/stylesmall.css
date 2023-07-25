@@ -139,16 +139,15 @@
     }
     .buttons{
         position: absolute;
-        top: 45%;
-        /* display: flex;
-        justify-content: space-around;
-        left: 11.5%; */
-        width: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+       
        
         
-    }
-    #btn{
-        margin-right: 200px;
     }
 
     .buttons button{
@@ -162,6 +161,7 @@
         border-radius: 20px;
         justify-self: space-between;
         font-size: 1.2em;
+        width: auto;
 
       
     }
