@@ -8,26 +8,41 @@
 </head>
 <body>
     <header>
-        <h1>Weather Application Programming Interface</h1>
+        <h1>Weather App</h1>
     </header>
     <main>
-        <div>
-            <h1>OpenWeatherMap.org API Test</h1>
-            <label for="city">Write your city name here:</label>
-            <input id="city" type="text" name="city" placeholder="Ex: Fairbanks">
-            <p>The current temperature in <span id="place"></span>, <span id="country"></span> is <span id="current-temp"></span> &deg;F</p>
-            <h2>Current Condition Icon</h2>
-            <figure>
-                <img src="" alt="" id="weather-icon" />
-                <figcaption></figcaption>
-            </figure>
+        <div class="weather">
+            <h1>Check a city weather</h1>
+
+            <input id="city" type="text" name="city" placeholder="Ex.:New York"><button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            
+    
+            <p class="a"> <i  id="location" class="fa-solid fa-location-dot"></i> <span id="place"></span>, <span id="country"></span>
+                <span class="flags"><img id="flag" src=""></span>
+            </p>
+           <div class="new">
+                <figure>
+                    <img src="" alt="" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+                <p >Temperature <span id="current-temp"></span>&deg; F  </p> 
+                
+                <div class="info">
+                    <p><span id="water"><i class="fa-solid fa-droplet"></i></span> <span id="humidity"></span>%</p>
+                    <p>
+                        <span id="wind"><i class="fa-solid fa-wind"></i></span> <span id="windspeed"></span> km/h 
+                    </p>
+                    <p> <span id="term"><i class="fa-solid fa-temperature-low"></i></span>  <span id="windchill"></span></p>
+                </div>
+            </div>
+            
             
         </div>
     </main>
     <footer>
-        <p>Gustavo Bispo | 🏛 BYU Idaho | WDD230 | Data provided by <a href="openWeathermap.org">OpenWeatherMap</a></p>
+        <p>Gustavo Bispo | All rights reserved &copy;| Data provided by <a href="openWeathermap.org">OpenWeatherMap</a></p>
     </footer>
-    
+    <script src="https://kit.fontawesome.com/7393b3984f.js" crossorigin="anonymous"></script>
     <script src="weatherapi.js"></script>
 </body>
 </html>

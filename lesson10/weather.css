@@ -1,37 +1,60 @@
+@import url();
+
 header{
+    top: 0;
+    position: sticky;
     padding: 20px;
-    background: rgb(59, 96, 141);
+    background: #082957;
     text-align: center;
     color: #fff;
+    box-shadow: 10px 0px 20px #000;
 }
 
 body{
     margin: 0 auto;
-    max-width: 1920px;
     width: 100%;
+    background-image: url("back2.jpg");
+    height: 100%;
     
 }
 
+#wind, #water{
+    color: #6abcdc;
+}
+#term{
+    color: #dc4c4c;
+}
 main{
     margin: 0 auto; 
     display: flex;
     justify-items: center;
     justify-content: center;
+    /* background: linear-gradient( #4e95dc 50%,  #fff 100%); */
+    width: 100%;
    
+
+   
+   
+}
+
+
+
+#location{
+    color: red;
 }
 
 
 span{
     /* color: yellow; */
     font-weight: 900;
-    color: #f7ca00;
+    /* color: #f7ca00; */
 }
 
 footer{
     margin-top: 200px;
     text-align: center;
     padding: 20px;
-    background: rgb(59, 96, 141);
+    background: #082957;
     color: #fff;
 }
 
@@ -46,44 +69,120 @@ figure{
 figcaption{
     text-align: center;
     font-weight: 900;
+    margin-top: 10px;
 }
 
+main
+
 div h1{
-    border-bottom: 2px solid #fff;
-    text-shadow: 3px 3px 10px #4e95dc;
+    
+    /* text-shadow: 3px 3px 10px #4e95dc; */
 }
 
 input{
     margin-top: 20px;
+    outline: none;
+    border: none;
+    
 }
+
+.a{
+    border-top: 2px solid #fff;
+    text-align: center;
+    font-size: 1.3em;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+
+.temp{
+    margin-top: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+.info p{
+    margin-right: 10px;
+}
+.weather h1{
+    text-align: center;
+}
+
+.weather p{
+    text-align: center;
+}
+#windspeed{
+    
+}
+.weather{
+    width: 500px;
+    margin-top: 100px;
+    box-shadow: 2px 2px 20px #000;
+    border-radius: 20px;
+    background: rgba(8,41,87,0.7);
+    color: white;
+}    
+
+.weather input{
+    width: 70%;
+    height: 30px;
+    margin-right: 15px;
+    margin-left:50px ;
+}
+
+.weather #search{
+    padding: 12px;
+    background: #6abcdc;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000;
+}
+
+
+
 
 div h2{
     text-align: center;
 }
-div p{
-    text-align: center;
-    border: 1px solid #4e95dc;
-    padding: 10px;
-    border-radius: 10px;
-}
 
-div img{
+
+.new img{
     display: block;
     margin: 0 auto;
     padding: 20px;
-    border: 2px solid #4e95dc;
+   
     justify-self: center;
     border-radius: 20px;
-    background: #fff;
+    background: linear-gradient(#52b1f0 40%, #fff 100%);
 
 }
 
+.flags{
+    position:relative;
+    display: inline-flex;
+    background: none !important;
+    padding: none!;
+    
+    align-self: flex-end;
+    justify-self: end;
+    
+}
+
+#flag{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: -6px;
+}
+
+
 div{
-    margin-top: 100px;
-    box-shadow: 2px 2px 20px #000;
-    border-radius: 20px;
-    border: 30px solid #4e95dc;
-    padding: 20px;
-    background: #535151;
-    color: white;
+    
 }
